@@ -1,0 +1,176 @@
+ID_1	ID_2	NAME_1	NAME_2
+1	1	Azua	Azua de Compostela
+1	2	Azua	Estebania
+1	3	Azua	Guayabal
+1	4	Azua	Las Charcas
+1	5	Azua	Las Yayas de Viajama
+1	6	Azua	Padre Las Casas
+1	7	Azua	Peralta
+1	8	Azua	Pueblo Viejo
+1	9	Azua	Sabana Yegua
+1	10	Azua	Villa Tabara Arriba
+2	11	11	Galvan
+2	12	Bahoruco	Los Rios
+2	13	Bahoruco	Neyba
+2	14	Bahoruco	Tamayo
+2	15	Bahoruco	Villa Jaragua
+3	16	Barahona	Cabral
+3	17	Barahona	El Peñón
+3	18	Barahona	Enriquillo
+3	19	Barahona	Fundación
+3	20	Barahona	Jaquimeyes
+3	21	Barahona	La Cienaga
+3	22	Barahona	Las Salinas
+3	23	Barahona	Paraiso
+3	24	Barahona	Polo
+3	25	Barahona	Santa Cruz de Barahona
+3	26	Barahona	Vicente Noble
+4	27	Dajabón	Dajabón
+4	28	Dajabón	El Pino
+4	29	Dajabón	Loma de Cabrera
+4	30	Dajabón	"Partido
+"
+4	31	Dajabón	Restauración
+5	32	Distrito Nacional	Distrito Nacional
+6	33	Duarte	Arenoso
+6	34	Duarte	Castillo
+6	35	Duarte	Hostos
+6	36	Duarte	Las Guaranas
+6	37	Duarte	Pimentel
+6	38	Duarte	San Francisco de Macorís
+6	39	Duarte	Villa Rivas
+7	40	El Seybo	Miches
+7	41	El Seybo	Santa Cruz del Seybo
+8	42	Espaillat	Cayetano Germosén
+8	43	Espaillat	Gaspar Hernández
+8	44	Espaillat	Jamao al Norte
+8	45	Espaillat	"Moca
+"
+9	46	Hato Mayor	El Valle
+9	47	Hato Mayor	Hato Mayor del Rey
+9	48	Hato Mayor	Sabana de la Mar
+10	49	Independencia	Cristobal
+10	50	Independencia	Duvergé
+10	51	Independencia	"Jimaní
+"
+10	52	Independencia	La Descubierta
+10	53	Independencia	Mella
+10	54	Independencia	Postrer Rio
+11	55	La Altagracia	Isla Saona
+11	56	La Altagracia	"La Laguna de Nisibón
+"
+11	57	La Altagracia	"Salvaleón de Higüey
+"
+11	58	La Altagracia	San Rafael del Yuma
+12	59	La Estrelleta	Banica
+12	60	La Estrelleta	"Comendador
+"
+12	61	La Estrelleta	El Llano
+12	62	La Estrelleta	Hondo Valle
+12	63	La Estrelleta	Juan Santiago
+12	64	La Estrelleta	Pedro Santana
+13	65	La Romana	Guaymate
+13	66	La Romana	Isla Catalina
+13	67	La Romana	La Romana
+13	68	La Romana	Villa Hermosa
+14	69	La Vega	Concepción de la Vega
+14	70	La Vega	Constanza
+14	71	La Vega	Jarabacoa
+14	72	La Vega	Jima Abajo
+15	73	María Trinidad Sánchez	Cabrera
+15	74	María Trinidad Sánchez	El Factor
+15	75	María Trinidad Sánchez	Nagua
+15	76	María Trinidad Sánchez	Rio San Juan
+16	77	Monseñor Nouel	Bonao
+16	78	Monseñor Nouel	Maimón
+16	79	Monseñor Nouel	Piedra Blanca
+17	80	Monte Cristi	"Castañuela
+"
+17	81	Monte Cristi	Guayubín
+17	82	Monte Cristi	Las Matas de Santa Cruz
+17	83	Monte Cristi	"Pepillo Salcedo
+"
+17	84	Monte Cristi	San Fernando de Monte Cristi
+17	85	Monte Cristi	"Villa Vázquez
+"
+18	86	Monte Plata	"Bayaguana
+"
+18	87	Monte Plata	Esperalvillo
+18	88	Monte Plata	Monte Plata
+18	89	Monte Plata	Sabana Grande de Boyá
+18	90	Monte Plata	Yamasá
+19	91	Pedernales	Isla Alto Velo
+19	92	Pedernales	Isla Beata
+19	93	Pedernales	Pedernales
+20	94	Peravia	Baní
+20	95	Peravia	Nizao
+21	96	Puerto Plata	Altamira
+21	97	Puerto Plata	Guananico
+21	98	Puerto Plata	Imbert
+21	99	Puerto Plata	La Isabela
+21	100	Puerto Plata	Los Hidalgos
+21	101	Puerto Plata	Luperon
+21	102	Puerto Plata	Montellano
+21	103	Puerto Plata	San Felipe de Puerto Plata
+21	104	Puerto Plata	Sosua
+22	105	Salcedo	Salcedo
+22	106	Salcedo	Tenares
+22	107	Salcedo	Villa Tapia
+23	108	Samaná	Las Terrenas
+23	109	Samaná	Sánchez
+23	110	Samaná	Santa Bárbara de Samaná
+24	111	San Cristóbal	Bajos de Haina
+24	112	San Cristóbal	Cambita Garabito
+24	113	San Cristóbal	Los Cacaos
+24	114	San Cristóbal	Nigua
+24	115	San Cristóbal	Sabana Grande de Palenque
+24	116	San Cristóbal	San Cristóbal
+24	117	San Cristóbal	San Gregorio de Yaguate
+24	118	San Cristóbal	Villa Altagracia
+25	119	San José de Ocoa	Rancho Arriba
+25	120	San José de Ocoa	Sabana Larga
+25	121	San José de Ocoa	San José de Ocoa
+26	122	San Juan	"Bohechio
+"
+26	123	San Juan	El Cercado
+26	124	San Juan	Juan de Herrera
+26	125	San Juan	Las Matas de Farfan
+26	126	San Juan	"San Juan de la Maguana
+"
+26	127	San Juan	Vallejuelo
+27	128	San Pedro de Macorís	Consuelo
+27	129	San Pedro de Macorís	Quisquella
+27	130	San Pedro de Macorís	Ramón Santana
+27	131	San Pedro de Macorís	San Pedro de Macorís
+27	132	San Pedro de Macorís	Unknown1
+27	133	San Pedro de Macorís	Unknown2
+28	134	Sánchez Ramírez	Cevicos
+28	135	Sánchez Ramírez	Cotuí
+28	136	Sánchez Ramírez	Fantino
+28	137	Sánchez Ramírez	La Mata
+30	141	Santiago	"Janico
+"
+30	142	Santiago	Licey al Medio
+30	143	Santiago	Puñal
+30	144	Santiago	Sabana Iglesia
+30	145	Santiago	San José de Las Matas
+30	146	Santiago	"Santiago de los Caballeros
+"
+30	147	Santiago	Tamboril
+30	148	Santiago	"Villa Bisonó
+"
+30	149	Santiago	Villa Gonzalez
+29	138	Santiago Rodríguez	Los Almácigos
+29	139	Santiago Rodríguez	Monción
+29	140	Santiago Rodríguez	San Ignacio de Sabaneta
+31	150	Santo Domingo	Boca Chica
+31	151	Santo Domingo	Guerra
+31	152	Santo Domingo	Los Alcarrizos
+31	153	Santo Domingo	Pedro Brand
+31	154	Santo Domingo	Santo Domingo Este
+31	155	Santo Domingo	Santo Domingo Norte
+31	156	Santo Domingo	Santo Domingo Oeste
+32	157	Valverde	"Esperanza
+"
+32	158	Valverde	Laguna Salada
+32	159	Valverde	Mao

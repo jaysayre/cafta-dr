@@ -1,0 +1,156 @@
+REGION,PROV,MUN,CODIGO,PROVNAME,MUNNAME,STDNAME,IPUMS,GEOID_1,GEOID_2
+10,1,1,101,DISTRITO NACIONAL,Santo Domingo de Guzmán,SANTO DOMINGO DE GUZMAN,Santo Domingo de Guzman,5,32
+5,2,1,201,AZUA,Azua,AZUA,Azua and Pueblo Viejo,1,1
+5,2,2,202,AZUA,Las Charcas,LAS CHARCAS,"Peralta, Las Charcas, Palmar de Ocoa, Villarpando, and  Estebanía",1,4
+5,2,3,203,AZUA,Las Yayas de Viajama,LAS YAYAS DE VIAJAMA,"Tábara Arriba, Las Yayas de Viajama, and Guayabal",1,5
+5,2,4,204,AZUA,Padre Las Casas,PADRE LAS CASAS,Padre las Casas and Sabana Yegua,1,6
+5,2,5,205,AZUA,Peralta,PERALTA,"Peralta, Las Charcas, Palmar de Ocoa, Villarpando, and  Estebanía",1,7
+5,2,6,206,AZUA,Sabana Yegua,SABANA YEGUA,Padre las Casas and Sabana Yegua,1,9
+5,2,7,207,AZUA,Pueblo Viejo,PUEBLO VIEJO,Azua and Pueblo Viejo,1,8
+5,2,8,208,AZUA,Tábara Arriba,TABARA ARRIBA,"Tábara Arriba, Las Yayas de Viajama, and Guayabal",1,10
+5,2,9,209,AZUA,Guayabal,GUAYABAL,"Tábara Arriba, Las Yayas de Viajama, and Guayabal",1,3
+5,2,10,210,AZUA,Estebanía,ESTEBANIA,"Peralta, Las Charcas, Palmar de Ocoa, Villarpando, and  Estebanía",1,2
+6,3,1,301,BAORUCO,Neiba,NEIBA,"Neiba, Galvan, Villa Jaragua, and Los Ríos",2,13
+6,3,2,302,BAORUCO,Galván,GALVAN,"Neiba, Galvan, Villa Jaragua, and Los Ríos",2,11
+6,3,3,303,BAORUCO,Tamayo,TAMAYO,"Uvilla, Tamayo, and El Palmar",2,14
+6,3,4,304,BAORUCO,Villa Jaragua,VILLA JARAGUA,"Neiba, Galvan, Villa Jaragua, and Los Ríos",2,15
+6,3,5,305,BAORUCO,Los Ríos,LOS RIOS,"Neiba, Galvan, Villa Jaragua, and Los Ríos",2,12
+6,4,1,401,BARAHONA,Barahona,BARAHONA,"Barahona, La Cienaga, El Peñon, Pescadería and Fundación",3,25
+6,4,2,402,BARAHONA,Cabral,CABRAL,"Cabral, Las Salinas, El Cachón, and Polo",3,16
+6,4,3,403,BARAHONA,Enriquillo,ENRIQUILLO,Paraiso and Enriquillo,3,18
+6,4,4,404,BARAHONA,Paraíso,PARAISO,Paraiso and Enriquillo,3,23
+6,4,5,405,BARAHONA,Vicente Noble,VICENTE NOBLE,"Vicente Noble, Canoa and Jaquimeyes",3,26
+6,4,6,406,BARAHONA,El Peñón,EL PENON,"Barahona, La Cienaga, El Peñon, Pescadería and Fundación",3,17
+6,4,7,407,BARAHONA,La Ciénaga,LA CIENAGA,"Barahona, La Cienaga, El Peñon, Pescadería and Fundación",3,21
+6,4,8,408,BARAHONA,Fundación,FUNDACION,"Barahona, La Cienaga, El Peñon, Pescadería and Fundación",3,19
+6,4,9,409,BARAHONA,Las Salinas,LAS SALINAS,"Cabral, Las Salinas, El Cachón, and Polo",3,22
+6,4,10,410,BARAHONA,Polo,POLO,"Cabral, Las Salinas, El Cachón, and Polo",3,24
+6,4,11,411,BARAHONA,Jaquimeyes,JAQUIMEYES,"Vicente Noble, Canoa and Jaquimeyes",3,20
+4,5,1,501,DAJABÓN,Dajabón,DAJABON,Dajabón,4,27
+4,5,2,502,DAJABÓN,Loma de Cabrera,LOMA DE CABRERA,"Loma de Cabrera, Partido, Restauración, and El Pino",4,29
+4,5,3,503,DAJABÓN,Partido,PARTIDO,"Loma de Cabrera, Partido, Restauración, and El Pino",4,30
+4,5,4,504,DAJABÓN,Restauración,RESTAURACION,"Loma de Cabrera, Partido, Restauración, and El Pino",4,31
+4,5,5,505,DAJABÓN,El Pino,EL PINO,"Loma de Cabrera, Partido, Restauración, and El Pino",4,28
+3,6,1,601,DUARTE,San Francisco de Macorís,SAN FRANCISCO DE MACORIS,San Francisco de Macorís,6,38
+3,6,2,602,DUARTE,Arenoso,ARENOSO,Villa Riva and Arenoso,6,33
+3,6,3,603,DUARTE,Castillo,CASTILLO,Castillo and Eugenio María de Hostos,6,34
+3,6,4,604,DUARTE,Pimentel,PIMENTEL,Pimentel and Las Guáranas,6,37
+3,6,5,605,DUARTE,Villa Riva,VILLA RIVA,Villa Riva and Arenoso,6,39
+3,6,6,606,DUARTE,Las Guáranas,LAS GUARANAS,Pimentel and Las Guáranas,6,36
+3,6,7,607,DUARTE,Eugenio María de Hostos,EUGENIO MARIA DE HOSTOS,Castillo and Eugenio María de Hostos,6,35
+7,7,1,701,ELÍAS PIÑA,Comendador,COMENDADOR,"Comendador, Banica, and Pedro Santana",12,60
+7,7,2,702,ELÍAS PIÑA,Bánica,BANICA,"Comendador, Banica, and Pedro Santana",12,59
+7,7,3,703,ELÍAS PIÑA,El Llano,EL LLANO,"Hondo Valle, Juan Santiago, and El Llano",12,61
+7,7,4,704,ELÍAS PIÑA,Hondo Valle,HONDO VALLE,"Hondo Valle, Juan Santiago, and El Llano",12,62
+7,7,5,705,ELÍAS PIÑA,Pedro Santana,PEDRO SANTANA,"Comendador, Banica, and Pedro Santana",12,64
+7,7,6,706,ELÍAS PIÑA,Juan Santiago,JUAN SANTIAGO,"Hondo Valle, Juan Santiago, and El Llano",12,63
+8,8,1,801,EL SEIBO,El Seibo,EL SEIBO,El Seibo,7,41
+8,8,2,802,EL SEIBO,Miches,MICHES,Miches and Pedro Sánchez,7,40
+1,9,1,901,ESPAILLAT,Moca,MOCA,Moca and Cayetano Germosén,8,45
+1,9,2,902,ESPAILLAT,Cayetano Germosén,CAYETANO GERMOSEN,Moca and Cayetano Germosén,8,42
+1,9,3,903,ESPAILLAT,Gaspar Hernández,GASPAR HERNANDEZ,Gaspar Hernández and Jamao al Norte,8,43
+1,9,4,904,ESPAILLAT,Jamao al Norte,JAMAO AL NORTE,Gaspar Hernández and Jamao al Norte,8,44
+6,10,1,1001,INDEPENDENCIA,Jimaní,JIMANI,Municipalities in Independencia province,10,51
+6,10,2,1002,INDEPENDENCIA,Duvergé,DUVERGE,Municipalities in Independencia province,10,50
+6,10,3,1003,INDEPENDENCIA,La Descubierta,LA DESCUBIERTA,Municipalities in Independencia province,10,52
+6,10,4,1004,INDEPENDENCIA,Postrer Río,POSTRER RIO,Municipalities in Independencia province,10,54
+6,10,5,1005,INDEPENDENCIA,Cristóbal,CRISTOBAL,Municipalities in Independencia province,10,49
+6,10,6,1006,INDEPENDENCIA,Mella,MELLA,Municipalities in Independencia province,10,53
+8,11,1,1101,LA ALTAGRACIA,Higüey,HIGUEY,Higüey,11,57
+8,11,2,1102,LA ALTAGRACIA,San Rafael del Yuma,SAN RAFAEL DEL YUMA,San Rafael del Yuma,11,58
+8,12,1,1201,LA ROMANA,La Romana,LA ROMANA,La Romana and Guaymate,13,67
+8,12,2,1202,LA ROMANA,Guaymate,GUAYMATE,La Romana and Guaymate,13,65
+8,12,3,1203,LA ROMANA,Villa Hermosa,VILLA HERMOSA,Villa Hermosa,13,68
+2,13,1,1301,LA VEGA,La Vega,LA VEGA,La Vega,14,69
+2,13,2,1302,LA VEGA,Constanza,CONSTANZA,Constanza,14,70
+2,13,3,1303,LA VEGA,Jarabacoa,JARABACOA,Jarabacoa,14,71
+2,13,4,1304,LA VEGA,Jima Abajo,JIMA ABAJO,Jima Abajo,14,72
+3,14,1,1401,MARÍA TRINIDAD SÁNCHEZ,Nagua,NAGUA,Nagua,15,75
+3,14,2,1402,MARÍA TRINIDAD SÁNCHEZ,Cabrera,CABRERA,Cabrera and Río San Juan,15,73
+3,14,3,1403,MARÍA TRINIDAD SÁNCHEZ,El Factor,EL FACTOR,El Factor,15,74
+3,14,4,1404,MARÍA TRINIDAD SÁNCHEZ,Río San Juan,RIO SAN JUAN,Cabrera and Río San Juan,15,76
+4,15,1,1501,MONTE CRISTI,Monte Cristi,MONTE CRISTI,Monte Cristi and Pepillo Salcedo,17,84
+4,15,2,1502,MONTE CRISTI,Castañuelas,CASTANUELAS,Castañuelas and Villa Vásquez,17,80
+4,15,3,1503,MONTE CRISTI,Guayubín,GUAYUBIN,Guayubín and Las Matas de Santa Cruz,17,81
+4,15,4,1504,MONTE CRISTI,Las Matas de Santa Cruz,LAS MATAS DE SANTA CRUZ,Guayubín and Las Matas de Santa Cruz,17,82
+4,15,5,1505,MONTE CRISTI,Pepillo Salcedo (Manzanillo),PEPILLO SALCEDO (MANZANILLO),Monte Cristi and Pepillo Salcedo,17,83
+4,15,6,1506,MONTE CRISTI,Villa Vásquez,VILLA VASQUEZ,Castañuelas and Villa Vásquez,17,85
+6,16,1,1601,PEDERNALES,Pedernales,PEDERNALES,Municipalities in Pedernales Province,19,93
+6,16,2,1602,PEDERNALES,Oviedo,OVIEDO,Municipalities in Pedernales Province,19,93
+5,17,1,1701,PERAVIA,Baní,BANI,Baní,20,94
+5,17,2,1702,PERAVIA,Nizao,NIZAO,Nizao,20,95
+1,18,1,1801,PUERTO PLATA,Puerto Plata,PUERTO PLATA,Puerto Plata,21,103
+1,18,2,1802,PUERTO PLATA,Altamira,ALTAMIRA,Altamira and Guananico,21,96
+1,18,3,1803,PUERTO PLATA,Guananico,GUANANICO,Altamira and Guananico,21,97
+1,18,4,1804,PUERTO PLATA,Imbert,IMBERT,Imbert,21,98
+1,18,5,1805,PUERTO PLATA,Los Hidalgos,LOS HIDALGOS,"Villa Isabela, Los Hidalgos, and Luperón",21,100
+1,18,6,1806,PUERTO PLATA,Luperón,LUPERON,"Villa Isabela, Los Hidalgos, and Luperón",21,101
+1,18,7,1807,PUERTO PLATA,Sosúa,SOSUA,Sosúa and Villa Montellano,21,104
+1,18,8,1808,PUERTO PLATA,Villa Isabela,VILLA ISABELA,"Villa Isabela, Los Hidalgos, and Luperón",21,99
+1,18,9,1809,PUERTO PLATA,Villa Montellano,VILLA MONTELLANO,Sosúa and Villa Montellano,21,102
+3,19,1,1901,HERMANAS MIRABAL,Salcedo,SALCEDO,Salcedo,22,105
+3,19,2,1902,HERMANAS MIRABAL,Tenares,TENARES,Tenares,22,106
+3,19,3,1903,HERMANAS MIRABAL,Villa Tapia,VILLA TAPIA,Villa Tapia,22,107
+3,20,1,2001,SAMANÁ,Samaná,SAMANA,Samaná,23,110
+3,20,2,2002,SAMANÁ,Sánchez,SANCHEZ,Sánchez and  Las Terrenas,23,109
+3,20,3,2003,SAMANÁ,Las Terrenas,LAS TERRENAS,Sánchez and  Las Terrenas,23,108
+5,21,1,2101,SAN CRISTÓBAL,San Cristóbal,SAN CRISTOBAL,San Cristóbal,24,116
+5,21,2,2102,SAN CRISTÓBAL,Sabana Grande de Palenque,SABANA GRANDE DE PALENQUE,Sabana Grande de Palenque and Los Cacaos,24,115
+5,21,3,2103,SAN CRISTÓBAL,Bajos de Haina,BAJOS DE HAINA,Bajos de Haina,24,111
+5,21,4,2104,SAN CRISTÓBAL,Cambita Garabitos,CAMBITA GARABITOS,Cambita Garabitos,24,112
+5,21,5,2105,SAN CRISTÓBAL,Villa  Altagracia,VILLA  ALTAGRACIA,Villa Altagracia,24,118
+5,21,6,2106,SAN CRISTÓBAL,Yaguate,YAGUATE,Yaguate,24,117
+5,21,7,2107,SAN CRISTÓBAL,San Gregorio de Nigua,SAN GREGORIO DE NIGUA,San Gregorio de Nigua,24,114
+5,21,8,2108,SAN CRISTÓBAL,Los Cacaos,LOS CACAOS,Sabana Grande de Palenque and Los Cacaos,24,113
+7,22,1,2201,SAN JUAN,San Juan,SAN JUAN,"San Juan, Juan de Herrera, and Bohechío",26,126
+7,22,2,2202,SAN JUAN,Bohechío,BOHECHIO,"San Juan, Juan de Herrera, and Bohechío",26,122
+7,22,3,2203,SAN JUAN,El Cercado,EL CERCADO,El Cercado and Vallejuelo,26,123
+7,22,4,2204,SAN JUAN,Juan de Herrera,JUAN DE HERRERA,"San Juan, Juan de Herrera, and Bohechío",26,124
+7,22,5,2205,SAN JUAN,Las Matas de Farfán,LAS MATAS DE FARFAN,Las Matas de Farfán,26,125
+7,22,6,2206,SAN JUAN,Vallejuelo,VALLEJUELO,El Cercado and Vallejuelo,26,127
+9,23,1,2301,SAN PEDRO DE MACORÍS,San Pedro de Macorís,SAN PEDRO DE MACORIS,San Pedro de Macorís and Ramón Santana,27,131
+9,23,2,2302,SAN PEDRO DE MACORÍS,Los Llanos,LOS LLANOS,"Los Llanos, Quisqueya, and Guayacanes",27,133
+9,23,3,2303,SAN PEDRO DE MACORÍS,Ramón Santana,RAMON SANTANA,San Pedro de Macorís and Ramón Santana,27,130
+9,23,4,2304,SAN PEDRO DE MACORÍS,Consuelo,CONSUELO,Other municipalities in San Pedro de Macorís,27,128
+9,23,5,2305,SAN PEDRO DE MACORÍS,Quisqueya,QUISQUEYA,"Los Llanos, Quisqueya, and Guayacanes",27,129
+9,23,6,2306,SAN PEDRO DE MACORÍS,Guayacanes,GUAYACANES,"Los Llanos, Quisqueya, and Guayacanes",27,132
+2,24,1,2401,SÁNCHEZ RAMÍREZ,Cotuí,COTUI,Cotuí and Cevicos,28,135
+2,24,2,2402,SÁNCHEZ RAMÍREZ,Cevicos,CEVICOS,Cotuí and Cevicos,28,134
+2,24,3,2403,SÁNCHEZ RAMÍREZ,Fantino,FANTINO,Fantino,28,136
+2,24,4,2404,SÁNCHEZ RAMÍREZ,La Mata,LA MATA,La Mata and La Cueva,28,137
+1,25,1,2501,SANTIAGO,Santiago,SANTIAGO,Santiago,30,146
+1,25,2,2502,SANTIAGO,Bisonó,BISONO,Bisonó,30,148
+1,25,3,2503,SANTIAGO,Jánico,JANICO,Jánico and Sabana Iglesia,30,141
+1,25,4,2504,SANTIAGO,Licey al Medio,LICEY AL MEDIO,Licey Al Medio,30,142
+1,25,5,2505,SANTIAGO,San José de las Matas,SAN JOSE DE LAS MATAS,San José de las Matas,30,145
+1,25,6,2506,SANTIAGO,Tamboril,TAMBORIL,Tamboril,30,147
+25,25,7,2507,SANTIAGO,Villa González,VILLA GONZALEZ,Villa González,30,149
+25,25,8,2508,SANTIAGO,Puñal,PUNAL,Puñal,30,143
+25,25,9,2509,SANTIAGO,Sabana Iglesia,SABANA IGLESIA,Other municipalities in Santiago,30,144
+4,26,1,2601,SANTIAGO RODRÍGUEZ,San Ignacio de Sabaneta,SAN IGNACIO DE SABANETA,Municipalities in Santiago Rodríguez province,29,140
+4,26,2,2602,SANTIAGO RODRÍGUEZ,Villa Los Almácigos,VILLA LOS ALMACIGOS,Municipalities in Santiago Rodríguez province,29,138
+4,26,3,2603,SANTIAGO RODRÍGUEZ,Monción,MONCION,Municipalities in Santiago Rodríguez province,29,139
+4,27,1,2701,VALVERDE,Mao,MAO,Mao,32,159
+4,27,2,2702,VALVERDE,Esperanza,ESPERANZA,Esperanza,32,157
+4,27,3,2703,VALVERDE,Laguna Salada,LAGUNA SALADA,Laguna Salada and La Caya,32,158
+2,28,1,2801,MONSEÑOR NOUEL,Bonao,BONAO,Bonao,16,77
+2,28,2,2802,MONSEÑOR NOUEL,Maimón,MAIMON,Piedra Blanca and Maimón,16,78
+2,28,3,2803,MONSEÑOR NOUEL,Piedra Blanca,PIEDRA BLANCA,Piedra Blanca and Maimón,16,79
+9,29,1,2901,MONTE PLATA,Monte Plata,MONTE PLATA,Monte Plata,18,88
+9,29,2,2902,MONTE PLATA,Bayaguana,BAYAGUANA,Bayaguana,18,86
+9,29,3,2903,MONTE PLATA,Sabana Grande de Boyá,SABANA GRANDE DE BOYA,Sabana Grande de Boya,18,89
+9,29,4,2904,MONTE PLATA,Yamasá,YAMASA,Yamasá,18,90
+9,29,5,2905,MONTE PLATA,Peralvillo,PERALVILLO,Peralvillo,18,87
+9,30,1,3001,HATO MAYOR,Hato Mayor,HATO MAYOR,Hato Mayor and Yerba Buena,9,47
+9,30,2,3002,HATO MAYOR,Sabana de la Mar,SABANA DE LA MAR,Other municipalities in Hato Mayor,9,48
+9,30,3,3003,HATO MAYOR,El Valle,EL VALLE,Other municipalities in Hato Mayor,9,46
+5,31,1,3101,SAN JOSÉ DE OCOA,San José de Ocoa,SAN JOSE DE OCOA,San José de Ocoa and La Cienaga (San José de Ocoa),25,121
+5,31,2,3102,SAN JOSÉ DE OCOA,Sabana Larga,SABANA LARGA,Other municipalities in San José de Ocoa,25,120
+5,31,3,3103,SAN JOSÉ DE OCOA,Rancho Arriba,RANCHO ARRIBA,Other municipalities in San José de Ocoa,25,119
+10,32,1,3201,SANTO DOMINGO,Santo Domingo Este,SANTO DOMINGO ESTE,Santo Domingo Este,31,154
+10,32,2,3202,SANTO DOMINGO,Santo Domingo Oeste,SANTO DOMINGO OESTE,Santo Domingo oeste,31,156
+10,32,3,3203,SANTO DOMINGO,Santo Domingo Norte,SANTO DOMINGO NORTE,Santo Domingo Norte,31,155
+10,32,4,3204,SANTO DOMINGO,Boca Chica,BOCA CHICA,Boca Chica,31,150
+10,32,5,3205,SANTO DOMINGO,San Antonio de Guerra,SAN ANTONIO DE GUERRA,San Antonio de Guerra,31,151
+10,32,6,3206,SANTO DOMINGO,Los Alcarrizos,LOS ALCARRIZOS,Los Alcarrizos,31,152
+10,32,7,3207,SANTO DOMINGO,Pedro Brand,PEDRO BRAND,Pedro Brand,31,153

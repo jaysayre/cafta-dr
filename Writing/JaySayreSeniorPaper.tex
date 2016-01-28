@@ -1,0 +1,160 @@
+\documentclass[12pt]{article}
+
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{graphicx,amsmath,amsfonts,amssymb,amsthm}
+\usepackage{rotating,fancyvrb}
+\usepackage[svgnames]{xcolor} % Needed for midnight blue color
+\usepackage[colorlinks]{hyperref}
+\hypersetup{citecolor=MidnightBlue,urlcolor=DarkBlue} %Hyperlinks with different coloring
+\usepackage{float}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage[margin=1in]{geometry}
+\usepackage{extramarks}
+\usepackage{fancyhdr}
+\usepackage{indentfirst} % Indent first sentence of a new section.
+
+% Title Page Formatting
+\title{
+\textmd{\textbf{\Title}}
+\textbf{\author{\AuthorName \\ \Class \date{\today}}}}
+\normalfont
+%\pagestyle{fancy} %for header with section title
+
+\begin{document}
+
+\newcommand{\Title}{Trade Liberalization and the Dominican Republic}
+\newcommand{\Class}{Economics 4993}
+\newcommand{\AuthorName}{James Sayre}
+      
+\maketitle
+\doublespacing
+\setcounter{footnote}{0}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+\vspace{-25pt}
+\begin{abstract}
+Over the last several decades, trade barriers have fallen substantially, and agreements promoting
+free trade between countries have proliferated. One such agreement, the Central American Free Trade 
+Agreement (CAFTA, or CAFTA-DR), aimed to lower trade barriers between Central American countries and 
+the United States.
+\end{abstract}
+
+
+
+\vspace{-10pt}
+\section{Context}
+\label{sec:Context}
+The Central American Free Trade Agreement was modeled upon the success of the
+North American Free Trade Agreement between the United States, Canada, and Mexico (?).
+
+
+In 2003, negotiations began on the Central American Free Trade Agreement, with Costa Rica, El 
+Salvador, Guatemala, Honduras, Nicaragua, and the United States taking part in the discussions. The 
+Dominican Republic joined the negotiations in early January, retitling the agreement the Dominican 
+Republic-Central America Free Trade Agreement. The goal of the bill was to create a free trade zone 
+similar to the one created by the North American Free Trade Agreement in 1994. President George W. 
+Bush of the United States signed CAFTA-DR into law in 2005, but it took another two years for the 
+Dominican Republic to fully implement the agreement, which it did in 2007.
+
+One of the explicit aims of CAFTA-DR was to reduce tariffs uniformly for United States imports into 
+member Central American countries, and to "progressively eliminate customs duties on originating 
+goods" \citep{ustraderep}. Tariffs on most products exported to the United States (U.S.) from Central America were 
+already duty-free as part of the Caribbean Basin Initiative, and so CAFTA-DR largely eliminated 
+tariffs on imported American goods, rather than eliminating American tariffs on exports of Central 
+American products. The bill put a moratorium on establishing new tariff lines or raising customs 
+duties between the parties involved, and explicitly defined a time line for each good to have its 
+tariffs reduced. Based upon World Trade Organization data\footnote{Using a import-weighted average of tariff rates for Harmonized System two-digit product codes, the nominal average decrease is larger}, I find CAFTA-DR reduced average Dominican 
+Republic (D.R.) tariff rates on imports from member countries from 12.33\% to 2.73\% from 2006 to 
+2007. Many goods were to be declared duty free initially upon implementation of the agreement, but 
+many more were to have their tariff rates phased in a period of generally 5-10 years.
+
+\vspace{-10pt}
+\section{Data}
+\label{sec:Data}
+Data for this project comes from combining several easily accessible databases, allowing
+for straightforward replication of my results.
+
+
+For tariff data in 2002, 
+I use the \citet{wtotariff} Tariff Analysis database, which provides tariff rates 
+at the Harmonized System (HS) six digit level. To compute tariffs in 2013, 
+I employ direct text from the CAFTA-DR bill, provided online by the 
+\citet{ustraderep} at the HS eight digit level, as well as the source above. 
+
+
+
+I use several sources to estimate the share of economic activity in a given municipality
+in the Dominican Republic. 
+
+Information on the number of companies by size in a given industry at the 
+municipality level in the Dominican Republic is provided by \citet{one} ONE for 2010
+\footnote{Note -- this source used to be accessible online, but when I recently went back
+the site threw an error when attempting to download the data.}. I then combine
+this with Integrated Public Use Microdata Series International
+% Cite this
+(IPUMS) data 
+
+%To aggregate the Harmonized System data to a SITC code, I use simple averages, 
+%as weighting by trade volume is impossible at this point. 
+% How am I aggregating tariffs again?
+
+
+\vspace{-10pt}
+\section{Exogeneity of Tariff Decreases}
+\label{sec:Exogeneity}
+Before discussing the impact of tariff changes upon regional and national outcomes in the Dominican 
+Republic, it is first necessary to comment upon the political economy of tariff negotiations. 
+\citet{brock1978}, as well as others, have observed the potential for special interest lobbies within 
+a country to have a significant impact upon policymakers and their decisions, particularly when 
+deciding which trade barriers to remove and which to leave in place (or, in rarer cases, increase). 
+One consequence of this is that tariff rates and tariff rate reductions could be determined by 
+endogenous factors also affecting regional labor markets. If this is the case, then 
+estimates for the effect of tariffs on either of these two factors will suffer from omitted variable 
+bias. Therefore, I discuss the qualitative and quantitative evidence available on the potential 
+exogeneity of tariff rate reductions as a result of CAFTA-DR. Although each country negotiated tariff 
+rate reductions individually with the United States, as previously stated, the goals of the agreement 
+were to lower tariffs on all incoming goods. If the United States exercised significant power in the 
+negotiating process to lower tariffs uniformly, it is possible that reductions due to CAFTA-DR can be 
+viewed as politically exogenous. Similarly, if policymakers in the Dominican Republic were interested 
+in lowering trade barriers uniformly, they may have been immune to political pressures from local 
+industries and firms. Although I have not found specific evidence of policymakers stated interests, 
+there is sufficient evidence to believe something of the sort occurred. First, 2006 D.R. tariffs 
+resemblance tariff barriers in place in 1996 very closely. Therefore, as many of the tariff barriers 
+were set decades ago, it is less likely that their level is reflective of modern industrial and 
+economic forces, and more likely to be due to institutional constraints and political difficulties in 
+lowering tariffs without an intervention from another country (the United States, in this case). 
+Second, I compare the relationship between pre-CAFTA tariff levels and the amount of tariff reduction 
+in figures %\ref{fig:Figure1} and \ref{fig:Figure2}
+. If policymakers had the interest in lowering tariffs uniformly, one would expect 
+to see larger tariff reductions on products that had initially high protection levels. Indeed, for 
+average tariffs on SITC 3 digit product codes, we see a nearly linear relationship between the 
+initial amount of protection for a good and the amount of tariff decrease. These results alone 
+suggest that Dominican tariff protection was lowered more or less uniformly by CAFTA-DR.
+
+
+\newpage
+%\section{Works Cited}
+\singlespacing
+\bibliography{mylib.bib}
+\bibliographystyle{plainnat}
+
+%\newpage
+\appendix
+\singlespacing
+
+\section{Tables}
+\label{sec:Tables}
+\fontsize{10pt}{12pt}\selectfont
+
+
+%\newpage
+\section{Figures}
+\label{sec:Figures}
+
+%\section{Proofs}
+
+%\section{Data Notes}
+
+\end{document}

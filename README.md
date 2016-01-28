@@ -1,2 +1,2 @@
 # cafta-dr
-Repository for my Senior Thesis on the impact of CAFTA-DR on the Dominican Republic
+Code repository for my Senior Thesis on the impact of CAFTA-DR on the Dominican Republic

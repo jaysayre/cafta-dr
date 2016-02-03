@@ -4,13 +4,9 @@ Master File which describes the purpose of each script in the directory
 
 Top Level Directory
 
-091315incomeandwagedataaggregation.py - Takes cleaned DHS and IPUMS data and
-aggregates the variables in the files (most importantly income and wage data) to the sector and municipality level
+02/02/16 UPDATE - THIS FILE NEEDS TO BE REWRITTEN TO REFLECT NEW CODE
 
 072515merging.py - Poorly named script which compiles final dataset from various sources
-
-072615minorcleaning.py - Script which provides final minor cleaning of the datasets, such as converting wide to long and retitling variables
-
 
 07252015areasharecompanies.py - Calculate share of each import competing activity in each sector, and computes weighted average of importing competing tariff for each municipality
 

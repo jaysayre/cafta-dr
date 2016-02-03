@@ -4,7 +4,7 @@ Master File which describes the purpose of each script in the directory
 
 Top Level Directory
 
-02/02/16 UPDATE - THIS FILE NEEDS TO BE REWRITTEN TO REFLECT NEW CODE
+02/02/16 UPDATE - THIS FILE NEEDS TO BE REWRITTEN TO REFLECT NEW CODE!!!!!!!!!
 
 072515merging.py - Poorly named script which compiles final dataset from various sources
 

@@ -16,10 +16,9 @@ basedf <- read.csv("cafta-dr/Output/municipality_level_DATASET.csv")
 gisdir <- "GIS/ShapeFilesCenso2010"
 shpfl <- "MUNCenso2010"
 
-## OUTPUTS
+## OUTPUT DIR FOR PLOTS
 outputdir <- "cafta-dr/Maps/"
 
-## TBA
 
 ## Clean up municipality level dataset
 basedf$prov <- NULL
@@ -52,10 +51,9 @@ lapply(numvars , function(i) {
 
   provmap <- ggplot() +
     geom_polygon(data=mapdata, aes(x=long, y=lat, group=group, fill=var), alpha=1) +
-    coord_equal() + 
     ggtitle(paste("Map of:",varname, sep=" ")) +
-    guides(fill = guide_legend(title=varname))
-  
+    scale_fill_continuous(name=varname)
+
   #flname = paste(outputdir,"dr",varname,".tex",sep="")
   #tikz(file=flname,standAlone=TRUE,sanitize=TRUE)
   #plot.new()

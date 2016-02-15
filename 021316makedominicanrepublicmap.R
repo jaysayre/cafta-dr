@@ -52,7 +52,7 @@ lapply(numvars , function(i) {
   provmap <- ggplot() +
     geom_polygon(data=mapdata, aes(x=long, y=lat, group=group, fill=var), alpha=1) +
     ggtitle(paste("Map of:",varname, sep=" ")) +
-    scale_fill_continuous(name=varname)
+    scale_fill_continuous(name=varname)+theme_classic()
 
   #flname = paste(outputdir,"dr",varname,".tex",sep="")
   #tikz(file=flname,standAlone=TRUE,sanitize=TRUE)

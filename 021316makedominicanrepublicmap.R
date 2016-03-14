@@ -24,7 +24,7 @@ outputdir <- "cafta-dr/Maps/"
 basedf$prov <- NULL
 basedf$mun <- as.factor(basedf$mun)
 basedf$tariffchng <- basedf$duty13-basedf$duty02
-basedf$incchng <- basedf$firstsourceofincome13-basedf$inc02
+basedf$incchng <- basedf$grossalary13-basedf$inc02
 
 ## Read in map
 drmunshp <- readOGR(gisdir, layer=shpfl)

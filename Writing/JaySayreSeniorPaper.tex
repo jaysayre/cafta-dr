@@ -1,0 +1,735 @@
+\documentclass[12pt]{article}
+
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{graphicx,amsmath,amsfonts,amssymb,amsthm}
+\usepackage{tikz}
+\usepackage{rotating,fancyvrb}
+
+\usepackage{color}
+\definecolor{MidnightBlue}{rgb}{0,0,0.4} 
+\usepackage[colorlinks]{hyperref}
+\hypersetup{citecolor=MidnightBlue,urlcolor=MidnightBlue,
+	    linkcolor=MidnightBlue} %Hyperlinks with different coloring
+\usepackage{float}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage[margin=1in]{geometry}
+\usepackage{extramarks}
+\usepackage{fancyhdr}
+\usepackage{indentfirst} % Indent first sentence of a new section.
+
+% Title Page Formatting
+\title{
+\textmd{\textbf{\Title}}
+\textbf{\author{\AuthorName \\ \Class \date{\today}}}}
+\normalfont
+%\pagestyle{fancy} %for header with section title
+
+\begin{document}
+
+\newcommand{\Title}{Trade Liberalization and the Dominican Republic}
+\newcommand{\Class}{Economics 4993}
+\newcommand{\AuthorName}{James Sayre}
+      
+\maketitle
+\doublespacing
+\setcounter{footnote}{0}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+\vspace{-25pt}
+\begin{abstract}
+I examine the impact of modern day trade liberalization on the wages of workers in the Dominican
+Republic. The Central American Free Trade Agreement reduced nominal Dominican input tariffs
+from an average of 12.06\% to 2.73\% from member countries, particularly the United States, over the
+short period of 2006-2007. More pending. 
+\end{abstract}
+
+\vspace{-10pt}
+\section{Introduction}
+\label{sec:Introduction}
+
+Pending.
+
+The organization of the rest of the paper is as follows; 
+I introduce the context of CAFTA in Section \ref{sec:Context},
+present the theory and relevant literature in Section \ref{sec:Litreview},
+elaborate upon whether CAFTA-DR presents a natural experiment in Section \ref{sec:Exogeneity},
+overview the construction of my data set in Section \ref{sec:Data}
+and discuss implications of the model
+in Section \ref{sec:Results}. Section \ref{sec:Conclusion} concludes.
+
+\vspace{-10pt}
+\section{Context}
+\label{sec:Context}
+Over the last several decades, trade barriers have fallen substantially, and agreements promoting
+free trade between countries have proliferated. The Central American Free Trade 
+Agreement (CAFTA, or CAFTA-DR), aimed to lower trade barriers between Central American countries and 
+the United States. One of the explicit aims of CAFTA was to reduce tariffs uniformly 
+for United States imports into member Central American countries, and to "progressively eliminate customs duties on 
+originating goods" \citep{ustraderep}.
+
+In 2003, negotiations began on the Central American Free Trade Agreement, with Costa Rica, El 
+Salvador, Guatemala, Honduras, Nicaragua, and the United States taking part in the discussions. The 
+Dominican Republic joined the negotiations in early January, retitling the agreement the Dominican 
+Republic-Central America Free Trade Agreement. U.S. President George W. 
+Bush signed CAFTA into law in 2005, but it took another two years for the 
+Dominican Republic to fully implement the agreement, which it did on March 1, 2007.
+Based upon World Trade Organization data,
+I find CAFTA-DR reduced average Dominican 
+Republic (D.R.) tariff rates on imports from member countries from 12.06\% to 2.73\% from 2006 to 
+2007\footnote{Using a import-weighted average
+of tariff rates for Harmonized System two-digit product codes, 
+the unweighted average decrease is larger.}. The magnitude of this decrease on imported American
+goods is similar to the size of the decrease in Mexican tariffs on American goods as a result of the
+North American Free Trade Agreement \citep{goldberg}. 
+In recent history, other countries such as Brazil reduced tariff barriers more drastically
+\citep{kovak}; however, this is still economically meaningful, especially since the United States 
+is the largest trading partner of the Dominican Republic, composing 
+38.6 percent of  total imports into the D.R in 2013 \citep{wtocountry}\footnote{The 
+United States also receives 56 percent of total exports from the Dominican Republic.}.
+
+Tariffs on most products exported to the United States from Central America were 
+already duty-free as part of the Caribbean Basin Initiative, and so CAFTA largely 
+removed ad-valorem taxes on American imports imposed by Carribean countries. 
+The bill put a moratorium on establishing new tariff lines or raising customs 
+duties between the parties involved, and explicitly defined a time table for each good to have its 
+tariffs reduced. Of the goods that the Dominican Republic had formerly placed tariff barriers upon,
+70.4\% of goods originating from the United States became duty free in 2007, another 6.5\%
+of goods became duty free by 2012 (2013 being the year for which I have survey data for), with
+the remaining 22.9\% of goods having partially reduced tariffs by 2013.
+In summation, many goods were to be declared duty free initially upon implementation of the agreement, 
+but many more were to have their duties phased out in a period of generally 5-10 years 
+(see Appendix \ref{fig:Appendix1} for more information). Due to the structure of this agreement,
+this allows me to examine the impact of reduced input tariff barriers on local 
+Dominican import-competing producers, without largely having to consider the simultaneous 
+changes in output tariffs.
+
+%\vspace{-10pt}
+%\section{Literature Review}
+%\label{sec:Litreview}
+
+\vspace{-10pt}
+\section{Model}
+\label{sec:Model}
+
+
+\vspace{-10pt}
+\section{Literature Review}
+\label{sec:Litreview}
+There is a considerable existing literature discussing the link between trade openness
+and changes in the wages of workers.
+The canonical model of international trade, the Heckscher-Ohlin (H-O) model, 
+predicts that a country abundant in a given factor will specialize 
+in the production of goods that use that factor relatively intensively.
+In the case of a developing country such as the Dominican Republic, the 
+H-O model suggests that the country will specialize in the production of goods
+which use unskilled labor relatively intensively in relation to capital. 
+The connection to the income
+distribution of a nation comes from the related Stolper-Samuelson Theorem,
+which asserts that as a nation moves from autarky to free trade, the owners of the relatively
+abundant factor, such as unskilled labor, will find their real incomes rising, while the owners of
+the relatively scarce factor will find their real incomes falling. 
+Therefore, upon lowering trade barriers, and thus increasing the price of unskilled labor intensive
+good, unskilled workers may be expected to see their wages
+increase.
+However, this result is hard to empirically validate for two reasons. The Stolper-Samuelson Theorem
+refers to economy-wide factor returns \citep{goldberg}, not the incomes of workers in a given intra-country
+region, which is the focus of my study. Next, to my knowledge, there is little pre-existing data on the 
+proportions of various factors in the Dominican Republic.
+
+One recent paper which explores the heterogenous impacts of trade upon domestic firms is \citet{holmes1},
+which develops a model for how international trade affects domestic plants of varying sizes. 
+Examining the effects of a surge in Chinese manufactured goods on U.S. manufacturers,
+\citeauthor{holmes1} find that import competing plants that were large or produced standardized goods 
+either closed down or laid off many of their workers, while smaller firms that produced specialized 
+goods fared better, even \textit{within} a given industry classification. Further, the authors' 
+model suggests that adverse wage impacts due to import competition should be more pronounced in 
+areas where one industry is more concentrated. Although the data I have does not provide any 
+indication of plants and their relative specialization, my firm level data allows one to infer 
+how concentrated an industry/occupation is within a municipality. (I need to compute this as
+an extension to what I have already done).
+
+Another paper which introduces a model of trade liberalization and wages is \citet{amiti},
+which finds heterogenous impacts of reduced trade barriers based upon the characteristics of
+firms. Their model suggests that a decline in input tariffs raises the wages of workers at firms
+using imported inputs, but reduces wages at firms that do not import inputs. 
+\citeauthor{amiti} find that a 10\% point fall in input tariffs has an insignificant impact
+on wages in firms that do not import but increases wages in firms that do import. 
+To replicate these findings, it is necessary to obtain plant-level information on workers'
+wages, and to determine the composition of inputs into the production process for each firm.
+My data set, however, does not allow me link workers to their respective firms, and thus only
+provides information regarding the average wages of workers in a given occupation. 
+
+Finally, \citet{kovak}  examines 
+the effect of trade liberalization on regional wage changes in Brazil. As a result of long standing
+import substituting industrial policies, in 1987 the average tariff level in Brazil was high; 
+54.9 percent. However, these were unsustainable, and by 1995, policymakers reduced average tariffs 
+to 10.8 percent.
+The author calculates, for each region, a measure for the share of regional production 
+accounted for by each industry, and then for each of these industries estimates the effect tariff 
+changes have had upon local wages in a region. 
+To estimate these effects using reduced form equations relies upon the exogeneity of tariff changes to 
+industry performance; that tariff changes have not been limited to only certain industries. 
+The author argues that, in the context of Brazil, policy makers had explicit aims to cut tariffs 
+uniformly, without prioritizing one industry over another, which is corroborated by showing that 
+tariff cuts were largest in industries that had high barriers to trade initially.
+Ultimately, \citeauthor{kovak} finds that a region facing 10 percentage point larger tariff-induced price 
+decline experienced a 4.39 percentage point larger wage decline.
+
+\vspace{-10pt}
+\section{Exogeneity of Tariff Decreases}
+\label{sec:Exogeneity}
+Before discussing the impact of tariff changes on labor markets in
+the Dominican Republic, it is first necessary to comment upon the political economy of
+tariff negotiations. \citet{grossman}, \citet{brock1978}, as well as others, have observed the potential
+for special interest lobbies within a country to have a significant impact upon policymakers
+and their decisions, particularly when deciding which trade barriers to remove and which
+to leave in place (or, in rarer cases, increase). One consequence of this is that tariff rates
+and tariff rate reductions could be determined by endogenous factors; tariffs can be viewed as the
+result of a political process, which would  obviously be intertwined with regional
+labor markets. If this is the case, then estimates for the effect of tariffs on labor market
+outcomes will suffer from omitted variable bias. Therefore, I discuss the qualitative and
+quantitative evidence available on the potential exogeneity of the initial level of
+trade barriers and tariff rate reductions as a result
+of CAFTA. 
+
+First, note that the level of Dominican trade protection in 2002 bears a large resemblance
+to tariff barriers in place in 1996\footnote{Detailed
+information on trade barriers is not available further back than this} (see Figure \ref{fig:Graph4}).
+As many of the tariff barriers were set decades ago, it is less likely that their pre-CAFTA level 
+was less reflective of forces attributed to the political economy of tariff rates, and 
+more likely to be due to institutional constraints and
+political difficulties in lowering tariffs without an intervention from another country (the
+United States, in this case). 
+Second, I compare the relationship between pre-CAFTA tariff
+levels and the amount of tariff reduction in figures \ref{fig:Graph1}, \ref{fig:Graph2} and 
+\ref{fig:Graph3}. If policymakers had the interest
+in lowering tariffs uniformly, one would expect to see larger tariff reductions on products that
+initially had higher protection levels. Indeed, for average tariffs on Harmonized System 
+6 digit product codes (Figure \ref{fig:Graph1}), we see a fairly linear ($R^2=0.85$) relationship 
+between the initial amount of protection for a good and
+the amount of tariff decrease. These results suggest that Dominican tariff protection
+was lowered more or less uniformly by CAFTA-DR.
+
+Need to discuss qualitative evidence here, such as how policymakers
+and D.R. President Leonel Fern\'{a}ndez stated that they did
+not want to cater to special interests. Need to pull citation from 
+\citet{guzman}, a key negotiator in the CAFTA process (I need to brush up on my high school Spanish).
+Although each country negotiated tariff rate reductions individually with the
+United States, as previously stated, the goal of the agreement was to lower tariffs on all
+incoming goods. Fortunately, after the agreement was adopted and ratified, the United States
+forbade the Dominican Congress from making any further modifications to the agreement, 
+minimizing concerns of political influences \citep{usambassador}.
+
+\vspace{-10pt}
+\section{Data}
+\label{sec:Data}
+Data for this project comes from combining several easily accessible databases, allowing
+for straightforward replication of my results\footnote{Replication code for this paper is available
+at \url{https://github.com/jaysayre/cafta-dr}}.
+To measure the extent of trade liberalization, I estimate the level of trade barriers in the
+Dominican Republic in 2002 and 2013. These years correspond with the years that household
+survey data is available for the Dominican Republic. 
+Between 2001 and 2006, Dominican Republic duties on American goods 
+remained largely constant until the passage of CAFTA (Figure \ref{fig:Graph3}), so the 
+difference in duties between 2002 and 2013 is primarily a result of the free trade agreement.
+Furthermore, household survey results are available for July-October 2013; this implies
+that the later portion of my panel dataset was collected than six years after CAFTA-DR was implemented 
+in March 2007. In theory, this should hopefully be long enough for local labor markets to adjust 
+to new changes in tariff barriers.
+
+For tariff data in 2002, 
+I use the \citet{wtotariff} Tariff Analysis database, which provides tariff nformation 
+at the Harmonized System (HS) six digit level\footnote{The same source
+also provides harmonized system two digit level information,
+which I use for Figure \ref{fig:Graph3}}. To compute tariffs in 2013, 
+I employ direct text from the CAFTA-DR bill, provided online by the 
+\citet{ustraderep} at the HS eight digit level. The treaty provides
+information on the base tariff rates of each eight digit good, and the tariff phase out
+scheme for each good (Appendix \ref{fig:Appendix1}).
+Using information on each phase out scheme, I calculate the estimated tariff
+for each good in 2013. To combine these sources, I aggregate
+the CAFTA-DR tariff information to the six digit level using an unweighted average, 
+since, to my knowledge, trade volume statistics are not readily available at the HS eight digit level.
+I then need to match up industrial products to their respective occupations to calculate
+the estimated input tariff that a given occupation faces. 
+To do this, I use a standard product to occupation concordance table\footnote{Found at 
+\href{http://wits.worldbank.org/product_concordance.html}{World Integrated Trade Solution (WITS)}, 
+provided by the World Bank.} to convert duties from the Harmonized System 6 digit level to the 
+International Standard Industrial Classification (ISIC) four digit 
+level\footnote{Specifically, a table from HS 1996 TO ISIC Rev. 3.1}.
+For obvious reasons\footnote{For example, it is unclear what effect various inputs tariffs have
+upon occupations in, say, the service sector.}, the concordance table matches product information
+for only some of the occupation codes found in my survey data. Following the convention employed 
+by the literature, I set the corresponding tariff faced by these occupations to zero.
+
+For the survey data previously alluded to, I use two sources. 
+Dominican Republic household survey data for 2002 comes from the 
+Integrated Public Use Microdata Series International
+(IPUMS) database, produced by the \citet{ipumsi} and conducted by the
+\citet{one} (ONE). The IPUMS data provides information on 
+survey respondents' income (measured as monthly total income in
+2002 Dominican pesos), municipality of residence, and occupation,
+provided at the ISIC two digit level, in addition to a host of other characteristics.
+%More information on geographic displacement in appendix?
+Household level data for 2013 comes from the 
+Demographic and Health Surveys (DHS) Program, and is produced by \citet{dhs}.
+Although the DHS dataset mostly provides information on the health 
+characteristics of survey respondents, it also provides 
+information on a respondent's occupation, place of residence,
+and occupational income (provided in weekly 2013 Dominican pesos), in addition to other factors. 
+DHS occupational information is provided without reference to any existing occupational/industrial 
+classification system (as far as I am aware), so I convert it manually to
+ISIC two digit codes (see Appendix \ref{fig:Appendix2}).
+Although both sources provide weekly income data, I am primarily interested in data
+on the average wage rate of workers in a given occupation, so I divide this data by the amount of
+hours worked per week. %More information on this construction in appendix?
+
+For my estimating equations at the municipal level,
+I use several sources to estimate the share of economic activity in a given municipality.
+Information on the number of firms by size (measured in terms of
+number of workers employed) in a given industry at the 
+municipality level in the Dominican Republic is provided by the 
+Directory of Companies and Establishments (Directorio de Empresas y Establecimientos)
+provided by 
+%the \citet{one} 
+ONE for 2010\footnote{Available online at \href{http://www.one.gov.do/recursos-automatizados/
+323/directorio-de-empresas-y-establecimientos/}{ONE}. Note: this page, in my experience,
+only works sporadically.}. This information is provided
+at the International Standard Industrial Classification four digit level, which I sum
+up to the ISIC two digit level by municipality and number of workers employed.
+I then combine this plant level data with IPUMS survey data from 2002 and 2010 to provide 
+clearer estimates of the number of workers employed in each industry. Recalling that occupational data
+for IPUMS is provided at the ISIC two digit level, I use this to compute the estimated
+share of industrial activity per municipality for both 2002 and 2010.
+% More details here
+Next, I merge each ISIC occupation code with the four digit ISIC duties computed above, 
+and then estimate the average level of tariff in a municipality using a weighted average
+based upon the estimated number of workers in a given occupation in that 
+municipality\footnote{i.e. Average Tariff$_m = \bar{t}_m =
+\dfrac{\displaystyle \sum_{\text{All occupations}_m} |workers_{o,m}| \cdot t_o}
+{\displaystyle \sum_{\text{All occupations}_m} |workers_{o,m}|}$, where $o$ is the 
+occupation, $m$ is a municipality, and $t$ is the tariff rate}. Finally, I aggregate
+the wage rate for workers \textit{listed as currently employed by the private sector} who 
+have occupations for in the 2013 DHS 
+and 2002 IPUMS survey data to the municipality level and merge
+this to the average tariff data. 
+To accurately compare changes in wages, I convert 2002 
+and 2013 Dominican monthly wages in pesos to 2013 US Dollars using the nominal exchange rate.
+
+Next, for my estimating equations at the occupational 
+and municipal level,
+I aggregate the wage rate for workers listed as currently employed by the private sector
+in the the 2013 DHS and 2002 IPUMS survey data to the 
+municipal and occupational (ISIC two digit) level, and as above, 
+convert this income data to 2013 United States Dollars. 
+This is then merged with the ISIC tariff data, which I aggregate to the ISIC two digit level using
+an unweighted average. 
+
+\vspace{-10pt}
+\section{Results}
+\label{sec:Results}
+%I adopt an estimation strategy similar to that of \citeauthor{kovak} and \citeauthor{amiti}. 
+%In particular, if I can make the case that tariff changes due to CAFTA are arguably exogenous to 
+%local labor markets in the
+%Dominican Republic, then a reduced form approach will be an appropriate method to examine
+%the changes in wages due trade liberalization. Therefore, I make this case in Section 
+%\ref{sec:Exogeneity}.
+
+
+The theoretical 
+
+
+My estimating equation should is 
+\begin{equation}
+\ln(w_{2013})- \ln(w_{2002}) = \beta_0 \iota + \beta_1( \bar{t}_{2013,m}-\bar{t}_{2002,m})+
++Z_p \Gamma + \epsilon_m
+\end{equation}
+
+
+
+
+At the municipality level, my estimating equation is 
+\begin{equation}
+\Delta w_m = \beta_0 + \beta_1 \Delta t_m + \epsilon_m 
+\end{equation}
+$\text{~where~}
+\Delta w_m := \bar{w}_{2013,m} - \bar{w}_{2002,m} \text{~and~} \Delta t_m := 
+\left|\bar{t}_{2013,m}-\bar{t}_{2002,m} \right|$\footnote{This is equivalent
+since all tariffs in 2002 were higher than those than 2013.}$= \bar{t}_{2002,m}-\bar{t}_{2013,m}$.
+Above, $m$ stands for municipality, and average tariffs in a municipality, $\bar{t}_{y,m}$, 
+are constructed as described in the data section, $\beta_1$ is my coefficient of interest,
+and $\epsilon_m$ are my disturbances.
+I also add province fixed effects (where province is one adminstrative level
+above the municipality level in the Dominican Republic) to some of my equations, 
+although there should be no theoretical reason to do this. 
+Figure \ref{fig:Table1} displays the results of this estimation.
+
+Ultimately, I find that a one-unit decrease in the average tariff rate in a municipality
+is associated with a 108 dollar decrease in incomes within that municipality, a 
+statistically significant result. Including province fixed effects neither changes the 
+sign or relative magnitude of this estimate, although it becomes no longer statistically
+significant (although fairly close to being statistically significant).
+
+Next, at the municipality and occupational level, my estimating equations take the form
+\begin{equation}
+\Delta w_{m,o} = \gamma_0 + \gamma_1 \Delta t_o + \nu_{m,o},
+\end{equation}
+$\text{~where~}
+\Delta w_{m,o} := \bar{w}_{2013,m,o} - \bar{w}_{2002,m,o} \text{~and~} 
+\Delta t_o := t_{2002,o}-t_{2013,o}$.
+Note that here, tariffs ($t$) are at the ISIC two digit occupational level, and wages 
+have instead been aggregated to each occupation ($o$) for which there is
+corresponding tariff information within a municipality. As before, $\gamma_1$ is
+my coefficient of interest and $\nu_{m,o}$ are my error terms.
+I also include municipality level fixed effects to some of my equations, but
+as before, this only serves to provide ``clearer'' coefficient estimates.
+Figure \ref{fig:Table2} displays the results of this estimation.
+
+Examining the results of these estimations, I find that a one unit 
+decrease in the tariff rate is associated with a 330 dollar increase 
+in average occupational income in a municipality, a result which is
+highly statistically significant. Adding municipal
+fixed effects does little to change this estimate, as expected.
+Adding an additional covariate, change in employment, estimated
+using IPUMS occupation data for 2002 and 2013, similarly does
+little to effect my main coefficient of interest.
+
+\vspace{-10pt}
+\section{Conclusion}
+\label{sec:Conclusion}
+Pending.
+
+\newpage
+%\section{Works Cited}
+\singlespacing
+\bibliography{mylib.bib}
+\bibliographystyle{plainnat}
+
+\newpage
+\appendix
+\singlespacing
+
+\section{Tables}
+\label{sec:Tables}
+\fontsize{10pt}{12pt}\selectfont
+
+\begin{figure}[H]
+\begin{center}
+Summary statistics at the municipality level, 2002 and 2013
+\input{../Plots/summarytable.tex}
+\caption{\label{fig:Summary 1}}
+\end{center}
+Income measured
+as average hourly wage rate for respondents in terms of 2013 USD, 
+duty is average municipality level tariff (see data
+section for construction), edu is average years of education of survey respondents. 
+2013 education data comes from the DHS, whereas 2002 and 2010 education data comes
+from IPUMS International.
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+Municipality level effect of tariff changes on change in wage rate from 2002 to 2013 (measured
+in 2013 USD)
+\input{../Plots/cleanedmunregs.tex}
+\caption{\label{fig:Table1}}
+\end{center}
+%1 and 3 have province fixed effects
+Observations are municipalities in the Dominican Republic (second administrative level),
+and tariffs are averages of estimated tariffs for ISIC 4 %2, to be honest 
+digit occupational codes,
+weighted by the number of workers in a given occupation in that municipality 
+(see Data section for more details). Standard errors are clustered at the province level.
+Income measured as yearly income in 2013 USD.
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Municipality level effect of tariff changes on migration and size of work force
+\input{../Plots/cleanedmigregs.tex}
+\caption{\label{fig:Table3}}
+\end{center}
+Observations are municipalities in the Dominican Republic (second administrative level),
+and tariffs are averages of estimated tariffs for ISIC 4 %2, to be honest 
+digit occupational codes,
+weighted by the number of workers in a given occupation in that municipality 
+(see Data section for more details). Standard errors are clustered at the province level.
+%Columns 2 and 4 have province level fixed effects
+``pop'' is the estimated population in a given municipality, ``empop'' is the size of
+the work force employed by the private or public sector (excludes self-employment).
+\end{figure}
+
+\begin{figure}[H]
+Effect of tariff changes on change in wage rate from 2002 to 2013 (measured in 2013 USD)
+\begin{center}
+\input{../Plots/cleanedmunoccregs.tex}
+\caption{\label{fig:Table2}}
+\end{center}
+%2,4 have municipality fixed effects
+Observations are each occupation for each tariff information can be computed for each municipality 
+in the Dominican Republic. Tariff rates are estimated duties for each ISIC 4 %2, to be honest 
+digit occupational codes,
+using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
+municipality level. Income measured as hourly wage rate in 2013 USD.
+\end{figure}
+
+\newpage
+\section{Graphs}
+\label{sec:Graphs}
+
+\begin{figure}[H]
+%\begin{center}
+% Uncomment this, tikz graphs are slow to produce
+%\input{../Plots/cleanedtariffhs6decreaseTIKZ.tex} 
+\caption{\label{fig:Graph1}}
+%Notes: Coefficient Estimate: -0.789, se: 0.004633, \(R^{2}\) =0.852, N=5005
+Source: Central American Free Trade Agreement, Office of the United States Trade Representative \&
+World Trade Organization, author's calculations
+%\end{center}
+\end{figure}
+
+\begin{figure}[H]
+%\begin{center}
+% Uncomment this
+%\input{../Plots/cleanedtariffisic2digTIKZ.tex}
+\caption{\label{fig:Graph2}}
+%Notes: Coefficient Estimate: -0.9326, se: 0.009471, \(R^{2}\) =0.974, N=261
+Source: Central American Free Trade Agreement, Office of the United States Trade Representative \&
+World Trade Organization, author's calculations
+%\end{center}
+\end{figure}
+
+\begin{figure}[H]
+%\begin{center}
+% Uncomment this
+%\input{../Plots/cleanedtariffisic4digTIKZ.tex}
+\caption{\label{fig:Graph3}}
+%Notes: Coefficient Estimate: -0.9326, se: 0.009471, \(R^{2}\) =0.974, N=261
+Source: Central American Free Trade Agreement, Office of the United States Trade Representative \&
+World Trade Organization, author's calculations
+%\end{center}
+\end{figure}
+
+\begin{figure}[H]
+% Uncomment this
+%\input{../Plots/cleanedhstwodigittrfsTIKZ.tex}
+\caption{\label{fig:Graph4}}
+\begin{center}
+Source: World Trade Organization
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.75,keepaspectratio=true]{../Maps/drduty02.pdf}
+\caption{\label{fig:Map1}}
+Source: Author's calculations
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.75,keepaspectratio=true]{../Maps/drduty13.pdf}
+\caption{\label{fig:Map2}}
+Source: Author's calculations
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.75,keepaspectratio=true]{../Maps/drtariffchng.pdf}
+\caption{\label{fig:Map3}}
+Source: Author's calculations
+\end{center}
+\end{figure}
+
+%\section{Proofs}
+
+\newpage
+\section{Data Appendix}
+\label{sec:Appendix}
+
+\begin{figure}[H]
+\begin{center}
+Estimated CAFTA-DR tariffs computed using the following scheme:
+\begin{tabular}{lll}
+\hline Cat. & Number & Phase Out Scheme \\
+& of Goods & \\
+\hline
+A &4326&Good is now duty free (0\% tariff rate).\\
+B & 381&Good will be reduced to duty free in 5 equal annual stages, duty free by 2012.\\
+C & 692&Good will be reduced to duty free in 10 equal annual stages, duty free by 2017.\\
+D & 121&Good will be reduced to duty free in 15 equal annual stages, duty free by 2022.\\
+G & 903&Good remains duty free.\\
+M & 313& 2007-2008 reduced by 2\% of base rate. 2009-2013 reduced by 8\% of base rate. \\
+& & 2014-2016 reduced by 16\% percent of base rate. Duty free by 2017.\\
+N & 22 & Good will have tariff rate reduced in 12 equal annual stages, duty free by 2019.\\
+SP& 48 & Special exemption, usually means good has a non-tariff barrier such as a quota.\\
+V &  2 & Good will remain at base rate until 2017. From 2017-2022 reduced by 8\% of\\
+& & base rate, 2022-2026 reduced by 12 percent of base rate. Duty free by 2027.\\
+W &  2 & Good will have tariff rate reduced in 4 equal annual stages, duty free by 2011.\\
+X & 21 & Good will have tariff rate reduced in 4 equal annual stages (first year is exempt),\\ 
+& & duty free by 2012. \\
+Y & 2  & Good will have duties reduced by 15 percent of base rate for first five years\\
+& & (2007-2012), 5\% for next four years after that (2012-2016), duty free by 2017.\\
+\end{tabular}
+\caption{\label{fig:Appendix1}}
+Source: \citet{ustraderep}, CAFTA-DR Annex 3.3
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Conversion Table for DHS occupations to ISIC 2 digit code
+\scriptsize
+\begin{tabular}{ll}
+Occupation & ISIC 2 digit\\ \hline
+peones de la industria manufacturera & 15,16,17,18,19,20,21,22,23,24,25\\
+&26,27,28,29,30,31,32,33,34,35,36,37\\
+conductores de veh\'{i}culos de motor & 60\\
+personal de enfermer\'{i}a y parter\'{i}a de nivel superior & 85\\
+profesionales de nivel medio de servicios de administraci\'{o}n & 74\\
+m\'{e}dicos y profesionales afines (excepto el personal de enfermer\'{i}a y parter\'{i}a) & 85,86\\
+vendedores y demostradores de tiendas y almacenes & 52\\
+maestros de nivel superior de la ense\~{n}anza primaria y preescolar & 80\\
+vendedores de quioscos y de puestos de mercado & 52\\
+personal dom\'{e}stico y afines, limpiadores, lavanderos y planchadores & 90\\
+profesionales en ciencias biol\'{o}gicas y otras disciplinas relativas a los seres o & 73\\
+otros directores de departamentos & 74\\
+oficiales y operarios de la construcci\'{o}n (obra gruesa) y afines & 45\\
+peones de la miner\'{i}a y la construcci\'{o}n & 10,11,12,13,14\\
+agricultores y trabajadores calificados de cultivos para el mercado & 1\\
+secretarios y operadores de m\'{a}quinas de oficina & 74\\
+conserjes, lavadores de ventanas y afines & 90\\
+mec\'{a}nicos y ajustadores de m\'{a}quinas & 50\\
+mec\'{a}nicos y ajustadores de equipos el\'{e}ctricos y electr\'{o}nicos & 40\\
+mensajeros, porteadores, porteros y afines & 53,93\\
+otros profesionales de la ense\~{n}anza & 80\\
+otros trabajadores de servicios personales a particulares & 93\\
+oficiales y operarios del tratamiento de la madera, ebanistas y afines & 20,36\\
+peones del transporte & 63\\
+personal de los servicios de protecci\'{o}n y seguridad & 75\\
+productores y trabajadores agropecuarios calificados% cuya producci\'{o}n se destina 
+& 1\\
+t\'{e}cnicos en programaci\'{o}n y control inform\'{a}ticos & 72\\
+profesionales de nivel medio en operaciones financieras y comerciales & 65\\
+oficiales y operarios de los textiles y de la confecci\'{o}n y afines & 17,18\\
+oficiales y operarios de la construcci\'{o}n (trabajos de acabado) y afines & 45\\
+cajeros, taquilleros y afines & 65\\
+maestros de nivel medio de la ense\~{n}anza primaria & 80\\
+trabajadores de los cuidados personales y afines & 93\\
+don't know & 99\\
+peones agropecuarios, forestales, pesqueros y afines & 01,05\\
+operadores de equipos \'{o}pticos y electr\'{o}nicos & 72,33\\
+vendedores ambulantes y afines & 52\\
+gerentes de empresa & 74\\
+personal de intendencia y de restauraci\'{o}n & 55\\
+empleados encargados del registro de materiales y de transportes & 60,63\\
+herreros, herramentistas y afines & 28,29 \\
+miembros del poder ejecutivo y de los cuerpos legislativos & 75\\
+directores de departamentos de producci\'{o}n y operaciones & 74\\
+t\'{e}cnicos en ciencias f\'{i}sicas y qu\'{i}micas y en ingenier\'{i}a & 74,24\\
+operadores de instalaciones de vidrier\'{i}a, cer\'{a}mica y afines & 26\\
+fuerzas armadas & 75\\
+pescadores, cazadores y tramperos & 1,5\\
+arquitectos, ingenieros y afines & 74\\
+empleados de servicios de informaci\'{o}n a la clientela & 64,72\\
+pintores, limpiadores de fachadas y afines & 45,91\\
+moldeadores, soldadores, chapistas, caldereros%, montadores de estructuras met\'{a}li 
+& 28,29,3\\
+otros operadores de m\'{a}quinas y montadores & 15,16,17,18,19,20,21,22,23,24,25,26\\
+&27,28,29,30,31,32,33,34,35,36,37
+\end{tabular}
+\caption{\label{fig:Appendix2}}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\scriptsize
+\begin{tabular}{ll}
+Occupation & ISIC 2 digit\\ \hline
+operadores de m\'{a}quinas para fabricar productos textiles y art\'{i}culos de piel y cu & 17,19\\
+personal directivo de la administraci\'{o}n p\'{u}blica & 75\\
+personal al servicio directo de los pasajeros & 60\\
+jefes de peque\~{n}as poblaciones & 75\\
+inspectores de obras, seguridad y salud y control de calidad & 74 \\
+profesionales de nivel medio de actividades art\'{i}sticas, espect\'{a}culos y deportes & 92\\
+profesores de universidades y otros establecimientos de la ense\~{n}anza superior & 80 \\
+operadores de instalaciones de procesamiento de la madera y de la fabricaci\'{o}n de & 20,21\\
+oficiales y operarios del procesamiento de alimentos y afines & 15,16\\
+criadores y trabajadores pecuarios calificados de la cr\'{i}a de animales para el me & 1\\
+archiveros, bibliotecarios, documentalistas y afines & 92\\
+otros oficinistas & 74\\
+alfareros, operarios de cristaler\'{i}as y afines & 52\\
+profesionales del derecho & 75\\
+operadores de maquinaria agr\'{i}cola m\'{o}vil y de otras m\'{a}quinas m\'{o}viles & 1\\
+sacerdotes de distintas religiones & 91\\
+recolectores de basura y afines & 90\\
+operadores de m\'{a}quinas para fabricar productos de caucho y de material pl\'{a}stico & 25\\
+limpiabotas y otros trabajadores callejeros & 52,93\\
+astr\'{o}logos, adivinadores y afines & 93\\
+operadores de m\'{a}quinas para fabricar productos qu\'{i}micos & 24\\
+operadores de m\'{a}quinas para elaborar alimentos y productos afines & 15\\
+especialistas en ciencias sociales y humanas & 73\\
+oficiales y operarios de las pieles, cuero y calzado & 18,19\\
+operadores de m\'{a}quinas de imprenta, encuadernaci\'{o}n y fabricaci\'{o}n de productos de & 21,22\\
+profesionales de nivel medio de la medicina moderna y la salud (excepto el perso & 85\\
+operadores de m\'{a}quinas para trabajar metales y productos minerales & 26,27,28\\
+otros maestros e instructores de nivel medio & 80\\
+profesores de la ense\~{n}anza secundaria & 80\\
+maestros de nivel medio de la ense\~{n}anza preescolar & 80\\
+empleados de bibliotecas y servicios de correos y afines & 92\\
+especialistas en organizaci\'{o}n y administaci\'{o}n de empresas  y afines & 74\\
+oficiales y operarios de las artes gr\'{a}ficas y afines & 92\\
+operadores de instalaciones mineras y de extracci\'{o}n y procesamiento de minerales & 10,11,12,13,14\\
+operadores de instalaciones de producci\'{o}n de energ\'{i}a y afines & 40\\
+trabajadores y asistentes sociales de nivel medio & 85\\
+personal de enfermer\'{i}a y parter\'{i}a de nivel medio & 85\\
+f\'{i}sicos, qu\'{i}micos y afines & 74,24\\
+trabajadores forestales calificados y afines & 2\\
+other & 99\\
+agentes de las administraciones p\'{u}blicas de aduanas, impuestos y afines & 75\\
+escritores, artistas creativos y ejecutantes & 92\\
+montadores & 29,30,31,32,33,34,35,36\\
+directores generales y gerentes generales de empresa & 74\\
+agentes comerciales y corredores & 70\\
+mec\'{a}nicos de precisi\'{o}n en metales y materiales similares & 26,27,28\\
+profesionales de la inform\'{a}tica & 72\\
+t\'{e}cnicos de nivel medio en ciencias biol\'{o}gicas, agronom\'{i}a, zootecnia y afines & 1\\
+auxiliares laicos de los cultos & 91\\
+marineros de cubierta y afines & 61\\
+dirigentes y administradores de organizaciones especializadas & 74\\
+t\'{e}cnicos en navegaci\'{o}n mar\'{i}tima y aeron\'{a}utica & 61,62\\
+auxiliares contables y financieros & 74\\
+modelos de modas, arte y publicidad & 92\\
+maestros e instructores de nivel superior de la ense\~{n}anza especial & 80
+\end{tabular}
+
+\normalsize
+Figure \ref{fig:Appendix2}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Average hours worked per week for a given economic activity in 2002
+\includegraphics[scale=.7,keepaspectratio=true]{../Plots/AvgHoursOcc2002.pdf}
+\caption{\label{fig:Appendix3}}
+Source: Dominican Central Bank
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Average  hours worked per week for a given economic activity in 2013
+\includegraphics[scale=.7,keepaspectratio=true]{../Plots/AvgHoursOcc2013.pdf}
+\caption{\label{fig:Appendix4}}
+Source: Dominican Central Bank
+\end{center}
+\end{figure}
+
+\end{document}

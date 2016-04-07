@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: JaySayreSeniorPaper.aux
+The style file: plainnat.bst
+Database file #1: mylib.bib.bib
+Warning--empty journal in usambassador
+Warning--empty year in usambassador
+Warning--empty year in usambassador
+Warning--empty year in ustraderep
+Warning--empty year in one
+Warning--empty year in wtocountry
+Warning--empty year in wtotariff
+You've used 14 entries,
+            2773 wiz_defined-function locations,
+            672 strings with 7316 characters,
+and the built_in function-call counts, 4997 in all, are:
+= -- 442
+> -- 195
+< -- 14
++ -- 72
+- -- 57
+* -- 327
+:= -- 764
+add.period$ -- 41
+call.type$ -- 14
+change.case$ -- 60
+chr.to.int$ -- 13
+cite$ -- 35
+duplicate$ -- 249
+empty$ -- 492
+format.name$ -- 81
+if$ -- 1059
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 9
+newline$ -- 77
+num.names$ -- 56
+pop$ -- 152
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 187
+stack$ -- 0
+substring$ -- 153
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 149
+warning$ -- 7
+while$ -- 50
+width$ -- 0
+write$ -- 176
+(There were 7 warnings)

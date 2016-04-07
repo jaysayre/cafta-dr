@@ -5,7 +5,7 @@
 \usepackage{graphicx,amsmath,amsfonts,amssymb,amsthm}
 \usepackage{tikz}
 \usepackage{rotating,fancyvrb}
-
+\usepackage{pdflscape}
 \usepackage{color}
 \definecolor{MidnightBlue}{rgb}{0,0,0.4} 
 \usepackage[colorlinks]{hyperref}
@@ -110,11 +110,6 @@ changes in output tariffs.
 %\label{sec:Litreview}
 
 \vspace{-10pt}
-\section{Model}
-\label{sec:Model}
-
-
-\vspace{-10pt}
 \section{Literature Review}
 \label{sec:Litreview}
 There is a considerable existing literature discussing the link between trade openness
@@ -137,6 +132,27 @@ However, this result is hard to empirically validate for two reasons. The Stolpe
 refers to economy-wide factor returns \citep{goldberg}, not the incomes of workers in a given intra-country
 region, which is the focus of my study. Next, to my knowledge, there is little pre-existing data on the 
 proportions of various factors in the Dominican Republic.
+
+%on the role of intermediate inputs. Trade liberalization brings more
+%access to foreign markets. Therefore domestic firms can import
+%higher quality inputs, leading to higher productivity. There are
+%other ways to improve productivity through the use of intermediate
+%inputs. The love of variety approach, outlined in the Dixit-Stiglitz
+%(1977) model, implies that the firm is more productive when using
+%more varieties of intermediate inputs (Feenstra, Markusen and
+%Zeile 1992, Acemoglu and Zilibotti 2001, Koren and Tenreyro 2007).
+%Ethier (1982) attributes this effect as ”higher specialization in production”.
+%In line with Ethier’s argument, I address the following
+%question: How do import tariffs, in particular input tariffs and output
+%tariffs, affect firms’ productivity through the import of intermediate
+%inputs?ariff reductions
+%in the intermediate and in the final market always have opposite
+%effects on TFP. The reason is that trade liberalization changes the
+%decision by firms to import intermediate inputs; and input and output
+%tariffs, which are imposed in the intermediate and final market
+%respectively, have opposite effects on the real marginal product of
+%intermediate inputs.
+
 
 One recent paper which explores the heterogenous impacts of trade upon domestic firms is \citet{holmes1},
 which develops a model for how international trade affects domestic plants of varying sizes. 
@@ -311,7 +327,7 @@ municipality\footnote{i.e. Average Tariff$_m = \bar{t}_m =
 \dfrac{\displaystyle \sum_{\text{All occupations}_m} |workers_{o,m}| \cdot t_o}
 {\displaystyle \sum_{\text{All occupations}_m} |workers_{o,m}|}$, where $o$ is the 
 occupation, $m$ is a municipality, and $t$ is the tariff rate}. Finally, I aggregate
-the wage rate for workers \textit{listed as currently employed by the private sector} who 
+the wage rate for workers listed as currently employed by the private sector who 
 have occupations for in the 2013 DHS 
 and 2002 IPUMS survey data to the municipality level and merge
 this to the average tariff data. 
@@ -319,13 +335,30 @@ To accurately compare changes in wages, I convert 2002
 and 2013 Dominican monthly wages in pesos to 2013 US Dollars using the nominal exchange rate.
 
 Next, for my estimating equations at the occupational 
-and municipal level,
-I aggregate the wage rate for workers listed as currently employed by the private sector
-in the the 2013 DHS and 2002 IPUMS survey data to the 
+and municipal level, I aggregate the wage rate for workers listed as currently employed 
+by the private sector in the the 2013 DHS and 2002 IPUMS survey data to the 
 municipal and occupational (ISIC two digit) level, and as above, 
 convert this income data to 2013 United States Dollars. 
 This is then merged with the ISIC tariff data, which I aggregate to the ISIC two digit level using
 an unweighted average. 
+
+\vspace{-10pt}
+\section{Estimation Strategy}
+\label{sec:Model}
+%My model is adapted from the model presented in \citep{amiti}.
+
+%First, consumers consume final goods as presented by Dixit and Stiglitz (1977) % need this citation. 
+%Each consumers' expenditure minimization problem (EMP) is
+%given by $\displaystyle \min E = \int_{v \in \mathcal{V}} p(v)q(v)dv$ such that 
+%$\displaystyle \left[\int_{v \in \mathcal{V}} q(v)^{(\sigma-1)/\sigma} dv \right]^{\sigma/(\sigma-1)} 
+%= U$, where $\mathcal{V}$ is the set of all final good varieties, and $\sigma > 1$ is the elasticity 
+%of substitution between varieties. This yields a demand curve for product $v$ given by 
+%$q(v)=\left[\dfrac{p(v)}{P}\right]^{-\sigma}Q$ and total revenue for a product given by
+%$r(v)=R[\dfrac{p(v)}{P}]^{1-\sigma}$, where $Q:= U$, and $P$ is an aggregate price index given by
+%$\displaystyle P = \left[\int_{v \in \mathcal{V}} p(v)^{1-\sigma} dv \right]^{\frac{1}{1-\sigma}}$, 
+%with $PQ=R$.
+
+% Perhaps I have no model with a really good literature review?
 
 \vspace{-10pt}
 \section{Results}
@@ -462,9 +495,10 @@ weighted by the number of workers in a given occupation in that municipality
 the work force employed by the private or public sector (excludes self-employment).
 \end{figure}
 
+\begin{landscape}
 \begin{figure}[H]
-Effect of tariff changes on change in wage rate from 2002 to 2013 (measured in 2013 USD)
 \begin{center}
+Effect of tariff changes on change in wage rate from 2002 to 2013 (measured in 2013 USD)
 \input{../Plots/cleanedmunoccregs.tex}
 \caption{\label{fig:Table2}}
 \end{center}
@@ -475,6 +509,7 @@ digit occupational codes,
 using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
 municipality level. Income measured as hourly wage rate in 2013 USD.
 \end{figure}
+\end{landscape}
 
 \newpage
 \section{Graphs}
@@ -714,22 +749,26 @@ Figure \ref{fig:Appendix2}
 \end{center}
 \end{figure}
 
+\begin{landscape}
 \begin{figure}[H]
 \begin{center}
 Average hours worked per week for a given economic activity in 2002
-\includegraphics[scale=.7,keepaspectratio=true]{../Plots/AvgHoursOcc2002.pdf}
+\includegraphics[scale=1,keepaspectratio=true]{../Plots/AvgHoursOcc2002.pdf}
 \caption{\label{fig:Appendix3}}
 Source: Dominican Central Bank
 \end{center}
 \end{figure}
+\end{landscape}
 
+\begin{landscape}
 \begin{figure}[H]
 \begin{center}
 Average  hours worked per week for a given economic activity in 2013
-\includegraphics[scale=.7,keepaspectratio=true]{../Plots/AvgHoursOcc2013.pdf}
+\includegraphics[scale=1,keepaspectratio=true]{../Plots/AvgHoursOcc2013.pdf}
 \caption{\label{fig:Appendix4}}
 Source: Dominican Central Bank
 \end{center}
 \end{figure}
+\end{landscape}
 
 \end{document}

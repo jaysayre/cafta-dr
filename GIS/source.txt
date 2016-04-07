@@ -1,0 +1,1 @@
+This shapefile (and other shapefiles corresponding to boundaries for provinces, municipal districts, and sectors) can be found at: http://www.one.gov.do/cartografia/276/informaciones-cartograficas.

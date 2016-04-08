@@ -450,7 +450,7 @@ Pending.
 
 \begin{figure}[H]
 \begin{center}
-Summary statistics at the municipality level, 2002 and 2013
+National statistics, 2002 and 2013
 \input{../Plots/summarytable.tex}
 \caption{\label{fig:Summary 1}}
 \end{center}
@@ -461,6 +461,31 @@ section for construction), edu is average years of education of survey responden
 2013 education data comes from the DHS, whereas 2002 and 2010 education data comes
 from IPUMS International. pop is the average population of each municipality,
 and empop is the average employed population in a given municpality.
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Summary statistics at the provincial level, 2002 and 2013
+\input{../Plots/provsummarytable1.tex}
+\caption{\label{fig:Summary 2}}
+\end{center}
+duty is average provincial level tariff (see data
+section for construction), edu is average years of education of survey respondents. 
+2013 education data comes from the DHS, 2002 education data comes
+from IPUMS International. pop is the total population of a province.
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Summary statistics at the provincial level, 2002 and 2013 (continued)
+\input{../Plots/provsummarytable2.tex}
+\caption{\label{fig:Summary 3}}
+\end{center}
+Income measured
+as average hourly wage rate in terms of 2013 USD within a province.
+emprate is the employment rate, calculated as the total employed work force of a province
+over the total provincial population of working age.
+pop is the total population of a province.
 \end{figure}
 
 \begin{landscape}
@@ -503,6 +528,34 @@ the work force employed by the private or public sector (excludes self-employmen
 Effect of tariff changes on change in wage rate from 2002 to 2013 (measured in 2013 USD)
 \input{../Plots/cleanedmunoccregs.tex}
 \caption{\label{fig:Table2}}
+\end{center}
+%2,4 have municipality fixed effects
+Observations are each occupation for each tariff information can be computed for each municipality 
+in the Dominican Republic. Tariff rates are estimated duties for each ISIC 4 %2, to be honest 
+digit occupational codes,
+using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
+municipality level. Income measured as hourly wage rate in 2013 USD.
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Effect of tariff changes on change in wage rate from 2002 to 2013, high skill sample
+\input{../Plots/cleanedhisklmunoccregs.tex}
+\caption{\label{fig:Table4}}
+\end{center}
+%2,4 have municipality fixed effects
+Observations are each occupation for each tariff information can be computed for each municipality 
+in the Dominican Republic. Tariff rates are estimated duties for each ISIC 4 %2, to be honest 
+digit occupational codes,
+using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
+municipality level. Income measured as hourly wage rate in 2013 USD.
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+Effect of tariff changes on change in wage rate from 2002 to 2013, low skill sample
+\input{../Plots/cleanedlosklmunoccregs.tex}
+\caption{\label{fig:Table5}}
 \end{center}
 %2,4 have municipality fixed effects
 Observations are each occupation for each tariff information can be computed for each municipality 

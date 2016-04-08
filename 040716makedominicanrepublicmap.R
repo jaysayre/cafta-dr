@@ -28,6 +28,7 @@ basedf$incchng <- basedf$grossalary13-basedf$inc02
 popdf$prov <- NULL
 popdf$duty02 <- NULL
 popdf$duty10 <- NULL
+popdf$munname <- NULL
 popdf$mun <- as.factor(popdf$mun)
 popdf$chngpop <- popdf$pop10-popdf$pop02
 popdf$chngempop <- popdf$empop10-popdf$empop02

@@ -32,8 +32,9 @@ popdf$munname <- NULL
 popdf$mun <- as.factor(popdf$mun)
 popdf$chngpop <- popdf$pop10-popdf$pop02
 popdf$chngempop <- popdf$empop10-popdf$empop02
-popdf$emprate02 <- popdf$empop02/popdf$pop02
-popdf$emprate10 <- popdf$empop10/popdf$pop10
+popdf$chngworkagepop <- popdf$workagepop10-popdf$workagepop02
+popdf$emprate02 <- popdf$empop02/popdf$workagepop02
+popdf$emprate10 <- popdf$empop10/popdf$workagepop10
 popdf$chngemprate <- popdf$emprate10-popdf$emprate02
 
 ## Read in map
@@ -53,8 +54,8 @@ drmunshp.df <- fortify(drmunshp)
 drmunshp.df <- join(drmunshp.df, drmunshp@data, by="id")
 
 ## Plot numerical variables
-#colnames(drmunshp.df)[c(10:29)]
-numvars <- c(10:29)
+#colnames(drmunshp.df)[c(10:32)]
+numvars <- c(10:32)
 lapply(numvars , function(i) {
   varname <- colnames(drmunshp.df)[i]
   mapdata <-  drmunshp.df[, c("long","lat",varname,"group","CODIGO")]

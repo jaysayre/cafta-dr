@@ -1,0 +1,12 @@
+Main page:
+
+http://www.one.gov.do/recursos-automatizados/323/directorio-de-empresas-y-establecimientos/
+
+Data Page:
+http://dwh.one.gob.do:9704/xmlpserver/Portal/Economia/Directorio_de_Empresas_y_Establecimientos/Seg%C3%BAn_actividad_econ%C3%B3mica_a_nivel_de_clase/Seg%C3%BAn_actividad_econ%C3%B3mica_a_nivel_de_clase.xdo
+
+Tariff Conversions:
+http://unstats.un.org/unsd/cr/registry/regso.asp?Ci=64&Lg=1
+http://unstats.un.org/unsd/cr/registry/regso.asp?Ci=65&Lg=1&Co=&T=0&p=31
+http://unstats.un.org/unsd/cr/registry/regso.asp?Ci=66&Lg=1&Co=1&T=0&p=15
+http://unstats.un.org/unsd/cr/registry/regso.asp?Ci=67

@@ -1,0 +1,663 @@
+VERSION BUILD=8920312 RECORDER=FX
+TAB T=1
+'URL GOTO=http://dwh.one.gob.do:9704/xmlpserver/Portal/Economia/Directorio_de_Empresas_y_Establecimientos/Seg%C3%BAn_actividad_econ%C3%B3mica_a_nivel_de_clase/Seg%C3%BAn_actividad_econ%C3%B3mica_a_nivel_de_clase.xdo
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov1mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov2mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov2mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov2mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov2mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov3mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov3mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov4mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov4mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov4mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov4mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov5mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov5mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov5mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov6mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov6mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov6mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov6mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov6mun5.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov6mun6.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(7)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov7mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(8)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov8mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(8)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov8mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(9)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov9mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(9)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov9mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(9)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov9mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(9)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov9mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(10)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov10mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(10)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov10mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(10)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov10mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(11)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov11mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(11)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov11mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(12)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov12mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(13)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov13mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(13)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov13mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(13)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov13mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(13)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov13mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(14)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov14mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(14)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov14mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(14)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov14mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(15)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov15mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(15)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov15mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(15)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov15mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(15)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov15mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(15)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov15mun5.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(15)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov15mun6.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(16)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov16mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(17)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov17mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(17)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov17mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun5.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun6.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(7)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun7.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(18)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(8)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov18mun8.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(19)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov19mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(19)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov19mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(19)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov19mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(20)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov20mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(20)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov20mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(20)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov20mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(21)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov21mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(21)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov21mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(21)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov21mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(21)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov21mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(21)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov21mun5.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(21)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov21mun6.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(21)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(7)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov21mun7.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(22)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov22mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(22)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov22mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(22)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov22mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(22)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov22mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(23)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov23mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(23)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov23mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(23)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov23mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(23)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov23mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(24)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov24mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(24)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov24mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(24)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov24mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(25)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov25mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(25)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov25mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(25)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov25mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(25)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov25mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(25)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov25mun5.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(25)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov25mun6.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(25)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(7)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov25mun7.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(26)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov26mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(26)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov26mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(26)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov26mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(27)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov27mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(27)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov27mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(27)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov27mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(28)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov28mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(28)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov28mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(29)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov29mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(29)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov29mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(29)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov29mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(29)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov29mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(30)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov30mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(30)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov30mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(31)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov31mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(31)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov31mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(32)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(1)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov32mun1.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(32)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(2)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov32mun2.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(32)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(3)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov32mun3.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(32)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(4)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov32mun4.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(32)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(5)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov32mun5.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export
+
+EVENT TYPE=CLICK SELECTOR="#Provincia>OPTION:nth-of-type(32)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#Municipio>OPTION:nth-of-type(6)" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#_xf>OPTION:nth-of-type(8)" BUTTON=0
+ONDOWNLOAD FOLDER=~/Dropbox/College/DR_Paper/DirectoryofCompaniesandEstablishments/ FILE=prov32mun6.csv WAIT=YES
+TAG POS=1 TYPE=BUTTON FORM=ID:xdoRptForm ATTR=TXT:Export

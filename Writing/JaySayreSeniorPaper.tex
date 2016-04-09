@@ -135,11 +135,9 @@ In recent history, other countries such as Brazil reduced tariff barriers more d
 is the largest trading partner of the Dominican Republic, composing 
 38.6 percent of  total imports into the D.R in 2013 \citep{wtocountry}\footnote{The 
 United States also receives 56 percent of total exports from the Dominican Republic.}.
+% Percentage of trade from CAFTA member countries?
 
-Tariffs on most products exported to the United States from Central America were 
-already duty-free as part of the Caribbean Basin Initiative, and so CAFTA largely 
-removed ad-valorem taxes on American imports imposed by Carribean countries. 
-The bill put a moratorium on establishing new tariff lines or raising customs 
+CAFTA established a moratorium on creating new tariff lines or raising customs 
 duties between the parties involved, and explicitly defined a time table for each good to have its 
 tariffs reduced. Of the goods that the Dominican Republic had formerly placed tariff barriers upon,
 70.4\% of goods originating from the United States became duty free in 2007, another 6.5\%
@@ -147,10 +145,26 @@ of goods became duty free by 2012 (2013 being the year for which I have survey d
 the remaining 22.9\% of goods having partially reduced tariffs by 2013.
 In summation, many goods were to be declared duty free initially upon implementation of the agreement, 
 but many more were to have their duties phased out in a period of generally 5-10 years 
-(see Figure \ref{fig:Appendix1} for more information). Due to the structure of this agreement,
-this allows me to examine the impact of reduced input tariff barriers on local 
-Dominican import-competing producers, without largely having to consider the simultaneous 
-changes in output tariffs.
+(see Figure \ref{fig:Appendix1} for more information). 
+
+
+Tariffs on most products exported to the United States from Central America were 
+already duty-free as part of the Caribbean Basin Economic Recovery Act (CBERA), and so CAFTA largely 
+removed ad-valorem taxes on American imports imposed by Carribean countries. 
+Implemented on January 1, 1984, CBERA eliminated U.S. import duties on goods (with certain
+exceptions) from 20 initial Caribbean countries, including the Dominican Republic.
+Although other specialized agreements to reduce import tariffs on goods originating from developing 
+countries existed, such as the Generalized System of Preferences, CBERA did not have any ``graduation''
+requirement for countries that became middle or high income, only that eligible  
+goods must have at least 35\% of their value added within one or more beneficiary countries 
+\citep{pelzman}. Indeed, based on \citeauthor{wtotariff} data, I find that simple Harmonized
+System two-digit U.S. import tariff averages were 1.66 for CBERA countries in 2002 and 0.11 for 
+CAFTA-DR countries in 2007. Although this represents a small decrease in export tariffs on
+the Dominican Republic, the magnitude of this decrease is much smaller than the corresponding
+decrease in import tariffs. Due to this structure, this allows me to examine the impact of reduced 
+input tariff barriers on local Dominican import-competing producers, without having to 
+examine simultaneous and large changes in output tariffs.
+% Do I need a graph of export tariffs?
 
 One relevant consideration for this study is the confounding effects of macroeconomic shocks 
 taking place during my study. The economic crisis of 2008 had worldwide effects, particularly
@@ -189,6 +203,17 @@ Finally, establishing a firm link between tariffs and wages may be difficult in 
 macroeconomic shocks. That said, even absent this data, in a Heckscher-Ohlin framework, trade 
 liberalization will be generally expected to reduce the premium for skilled labor in middle-low 
 income or developing countries. 
+
+As part of an extensive literature, several papers that examine the effect of trade liberalization on 
+wages, particularly the wage premium, are Pavcnik, Blom, Goldberg, and Schady (2004), Goldberg
+and Pavcnik (2004), Mishra and Kumar (2005), Feliciano (2001), and Kaplan and Verhoogen (2005).
+These papers find mixed results, some find positive associations between trade reform and wages 
+(Goldberg and Pavcnik (2004)), others find negative associations (Mishra and Kumar (2005)), and some 
+find no relationship (Pavcnik, Blom, Goldberg, and Schady (2004), Feliciano (2001)). As noted by 
+\citeauthor{goldberg}, ``the heterogeneity of findings in these studies is perhaps not surprising 
+given the large number of possible channels through which trade could affect industry [wages 
+and wage premia]''. Therefore, I review some of the literature discussing such channels through
+which trade reform can affect wages.
 
 One paper which introduces a model of trade liberalization and its effect upon wages is \citet{amiti},
 which finds varying impacts of reduced trade barriers based upon the characteristics of
@@ -248,8 +273,7 @@ result of a political process, which would  obviously be intertwined with region
 labor markets. If this is the case, then estimates for the effect of tariffs on labor market
 outcomes will suffer from omitted variable bias. Therefore, I discuss the qualitative and
 quantitative evidence available on the potential exogeneity of the initial level of
-trade barriers and tariff rate reductions as a result
-of CAFTA. 
+trade barriers and tariff rate reductions as a result of CAFTA. 
 
 First, note that the level of Dominican trade protection in 2002 bears a large resemblance
 to tariff barriers in place in 1996\footnote{Detailed
@@ -297,7 +321,7 @@ in March 2007. In theory, this should hopefully be long enough for local labor m
 to new changes in tariff barriers.
 
 For tariff data in 2002, 
-I use the \citet{wtotariff} Tariff Analysis database, which provides tariff nformation 
+I use the \citet{wtotariff} Tariff Analysis database, which provides tariff information 
 at the Harmonized System (HS) six digit level\footnote{The same source
 also provides harmonized system two digit level information,
 which I use for Figure \ref{fig:Graph3}}. To compute tariffs in 2013, 
@@ -386,7 +410,17 @@ an unweighted average.
 \vspace{-10pt}
 \section{Estimation Strategy}
 \label{sec:Model}
-%My model is adapted from the model presented in \citep{amiti}.
+In many cases, the method of testing an empirical relationship between several economic variables must 
+be derived from a theoretical model in order to be credible and avoid reporting spurious correlations.
+In the case of determining the effect of trade liberalization on regional wages, however, the theoretical
+relationship is well established, either by the Heckscher-Ohlin model,
+the specific-factors model of regional economies, the model presented by \citeauthor{amiti}, or 
+others. I remain agnostic between these models, but it is clear the relationship between tariff rates
+and worker wages is well established. Ultimately, I adopt an estimation strategy to examine the 
+effect of changes in tariff rates on wages similar to that of \citet{kovak}, \citet{amiti}, and 
+\citet{amiti2012trade}.
+
+
 
 %First, consumers consume final goods as presented by Dixit and Stiglitz (1977) % need this citation. 
 %Each consumers' expenditure minimization problem (EMP) is
@@ -400,7 +434,7 @@ an unweighted average.
 %with $PQ=R$.
 
 % Also municipality
-I also add province fixed effects (where province is one adminstrative level
+I also add province fixed effects (where province is one administrative level
 above the municipality level in the Dominican Republic) to some of my equations.
 The idea behind this is that there may be confounding time-varying macroeconomic
 shocks which effect the wages of workers at the municipality level, outside of
@@ -411,7 +445,7 @@ or mostly likely, national level, but have little heterogeneous effects at the r
 \vspace{-10pt}
 \section{Results}
 \label{sec:Results}
-%I adopt an estimation strategy similar to that of \citeauthor{kovak} and \citeauthor{amiti}. 
+%
 %In particular, if I can make the case that tariff changes due to CAFTA are arguably exogenous to 
 %local labor markets in the
 %Dominican Republic, then a reduced form approach will be an appropriate method to examine
@@ -484,7 +518,7 @@ Pending.
 \newpage
 %\section{Works Cited}
 \singlespacing
-\bibliography{mylib.bib}
+\bibliography{JaySayreSeniorPaperBibTex.bib}
 \bibliographystyle{plainnat}
 
 \bigskip \bigskip \bigskip
@@ -551,7 +585,6 @@ weighted by the number of workers in a given occupation in that municipality
 (see Data section for more details). Standard errors are clustered at the province level.
 Hourly wage rate is in 2013 USD.
 \end{figure}
-\end{landscape}
 
 \begin{figure}[H]
 \begin{center}
@@ -567,9 +600,10 @@ weighted by the number of workers in a given occupation in that municipality
 %Columns 2 and 4 have province level fixed effects
 ``pop'' is the estimated population in a given municipality, ``empop'' is the size of
 the work force employed by the private or public sector (excludes self-employment).
+Employment rate is calculated as the total employed work force of a municipality
+over the total municipal population of working age.
 \end{figure}
 
-\begin{landscape}
 \begin{figure}[H]
 \begin{center}
 Effect of tariff changes on change in wage rate from 2002 to 2013 (measured in 2013 USD)

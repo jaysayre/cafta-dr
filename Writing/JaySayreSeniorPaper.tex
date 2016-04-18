@@ -45,7 +45,7 @@ from an average of 12.06\% to 2.73\% from member countries, particularly the Uni
 put regulations in place to remove remaining tariffs in a short time period after that. 
 At the regional level, I find insignificant effects of trade reform
 on wages. At the occupational level within a region, I find that a 10 percentage point decrease in 
-input tariffs is associated with 4.5 percentage point lower wage growth over the period 2002 to 2013. 
+input tariffs over the time period is associated with 4.5 percentage point lower wage growth over the period 2002 to 2013. 
 Upon considering the heterogeneous effects of trade reform based upon skill levels of workers, I find 
 that the wages of skilled workers experienced slower wage growth than their unskilled counterparts over 
 the period, which is broadly consistent with predictions of the Heckscher-Ohlin Model for a developing
@@ -795,7 +795,9 @@ Observations are municipalities in the Dominican Republic (second administrative
 and tariffs are averages of estimated tariffs for ISIC 2 digit occupational codes,
 weighted by the number of workers in a given occupation in that municipality 
 (see section \ref{sec:Data} for more details). Standard errors are clustered at the province level.
-Hourly wage rate is in 2013 USD.
+edu is average years of education of survey respondents in a municipality in a given year,
+and chngedu is the change of average years of education from 2002-2010.
+
 \end{figure}
 
 \begin{figure}[H]
@@ -807,7 +809,11 @@ Effect of tariff changes on change in log wage rate from 2002 to 2013 (measured 
 Observations are each occupation within a municipality.
 Tariff rates are estimated duties for each ISIC 2 digit occupational code,
 using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
-municipality level. Income measured as hourly wage rate in 2013 USD.
+municipality level. numworkers is the estimated
+number of workers within a municipality in the given occupation. occupationconc is the measure of
+the concentration of a ISIC 2 digit occupation within a municipality. nontraded is a binary variable
+taking the value one if an occupation has no corresponding tariff information, and so the change in
+tariff rate has been set to zero.
 \end{figure}
 
 \begin{figure}[H]
@@ -816,11 +822,17 @@ Heterogeneity: Effect of tariff changes on change in log wage rate from 2002 to 
 \input{../Plots/cleanedhisklmunoccregs.tex}
 \caption{\label{fig:Table4}}
 \end{center}
-Observations are each occupation within a municipality.
+\small{Observations are each occupation within a municipality.
 Tariff rates are estimated duties for each ISIC 2 digit occupational code,
 using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
-municipality level. Income measured as hourly wage rate in 2013 USD. The high skill sample only 
-contains survey respondents with 9 or more years of education.
+municipality level. The high skill sample only 
+contains survey respondents with 9 or more years of education. numworkers is the estimated
+number of workers within a municipality in the given occupation, and change in employment
+is the change in numworkers from 2002 to 2010. edu is average years of education 
+of workers in an occupation within a municipality in a given year. nontraded is a binary variable
+taking the value one if an occupation has no corresponding tariff information (i.e. it produces goods
+that are not traded) and so the change in
+tariff rate has been set to zero.}
 \end{figure}
 
 \begin{figure}[H]
@@ -829,11 +841,16 @@ Heterogeneity: Effect of tariff changes on change in log wage rate from 2002 to 
 \input{../Plots/cleanedlosklmunoccregs.tex}
 \caption{\label{fig:Table5}}
 \end{center}
-Observations are each occupation within a municipality. 
+\small{Observations are each occupation within a municipality. 
 Tariff rates are estimated duties for each ISIC 2 digit occupational code,
 using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
-municipality level. Income measured as hourly wage rate in 2013 USD. The low skill sample only 
-contains survey respondents with 0-8 years of education.
+municipality level. The low skill sample only 
+contains survey respondents with 0-8 years of education. numworkers is the estimated
+number of workers within a municipality in the given occupation, and change in employment
+is the change in numworkers from 2002 to 2010. edu is average years of education 
+of workers in an occupation within a municipality in a given year. nontraded is a binary variable
+taking the value one if an occupation has no corresponding tariff information and so the change in
+tariff rate has been set to zero.}
 \end{figure}
 \end{landscape}
 
@@ -843,7 +860,7 @@ contains survey respondents with 0-8 years of education.
 \begin{figure}[H]
 %\begin{center}
 % Uncomment this, tikz graphs are slow to produce
-%\input{../Plots/cleanedtariffhs6decreaseTIKZ.tex} 
+\input{../Plots/cleanedtariffhs6decreaseTIKZ.tex} 
 \caption{\label{fig:Graph1}}
 %Notes: Coefficient Estimate: -0.789, se: 0.004633, \(R^{2}\) =0.852, N=5005
 Source: Central American Free Trade Agreement, Office of the United States Trade Representative \&
@@ -853,8 +870,7 @@ World Trade Organization, author's calculations
 
 \begin{figure}[H]
 %\begin{center}
-% Uncomment this
-%\input{../Plots/cleanedtariffisic2digTIKZ.tex}
+\input{../Plots/cleanedtariffisic2digTIKZ.tex}
 \caption{\label{fig:Graph2}}
 %Notes: Coefficient Estimate: -0.9326, se: 0.009471, \(R^{2}\) =0.974, N=261
 Source: Central American Free Trade Agreement, Office of the United States Trade Representative \&
@@ -864,8 +880,7 @@ World Trade Organization, author's calculations
 
 \begin{figure}[H]
 %\begin{center}
-% Uncomment this
-%\input{../Plots/cleanedtariffisic4digTIKZ.tex}
+\input{../Plots/cleanedtariffisic4digTIKZ.tex}
 \caption{\label{fig:Graph3}}
 %Notes: Coefficient Estimate: -0.9326, se: 0.009471, \(R^{2}\) =0.974, N=261
 Source: Central American Free Trade Agreement, Office of the United States Trade Representative \&
@@ -875,8 +890,7 @@ World Trade Organization, author's calculations
 
 \begin{figure}[H]
 %\begin{center}
-% Uncomment this
-%\input{../Plots/cleanedhstwodigittrfsTIKZ.tex}
+\input{../Plots/cleanedhstwodigittrfsTIKZ.tex}
 \caption{\label{fig:Graph4}}
 Source: World Trade Organization
 %\end{center}

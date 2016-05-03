@@ -1,0 +1,107 @@
+\chapter{Data}
+\label{sec:Data}
+
+\newthought{Data for this project} comes from combining several easily accessible databases, allowing
+for straightforward replication of my results\footnote{Additionally, replication code for this 
+paper is available at \url{https://github.com/jaysayre/cafta-dr}}.
+To measure the extent of trade liberalization, I estimate the level of trade barriers in the
+Dominican Republic in 2002 and 2013. These years correspond with the years that household
+survey data is available for the Dominican Republic. The 2013 household survey results were collected 
+between July and October of 2013; this implies
+that the later portion of my panel dataset was collected than six years after CAFTA-DR was implemented 
+in March 2007. In theory, this should hopefully be long enough for local labor markets to adjust 
+to new changes in tariff barriers.
+Between 2002 and 2006, Dominican Republic duties on American goods 
+remained largely constant until the passage of CAFTA (Figure \ref{fig:Graph3}), so the 
+difference in duties between 2002 and 2013 is primarily a result of the free trade agreement.
+
+For tariff data in 2002, 
+I use the \citet{wtotariff} Tariff Analysis database, which provides tariff information 
+at the Harmonized System (HS) six digit level\footnote{The same source
+also provides harmonized system two digit level information,
+which I use for Figure \ref{fig:Graph3}}. To compute tariffs in 2013, 
+I employ direct text from the CAFTA-DR bill, provided online by the 
+\citet{ustraderep} at the HS eight digit level. The treaty provides
+information on the base tariff rates of each eight digit good, and the tariff phase out
+scheme for each good (Appendix \ref{fig:Appendix1}).
+Using information on each phase out scheme, I calculate the estimated tariff
+for each good in 2013. To combine these sources, I aggregate
+the CAFTA-DR tariff information to the six digit level using an unweighted average, 
+since, to my knowledge, trade volume statistics are not readily available at the HS eight digit level.
+I then need to match up industrial products to their respective occupations to calculate
+the estimated input tariff that a given occupation faces. 
+To do this, I use a standard product to occupation concordance table\footnote{Found at 
+\href{http://wits.worldbank.org/product_concordance.html}{World Integrated Trade Solution (WITS)}, 
+provided by the World Bank.} to convert duties from the Harmonized System 6 digit level to the 
+International Standard Industrial Classification (ISIC) four digit 
+level\footnote{Specifically, a table from HS 1996 TO ISIC Rev. 3.1.}, which I then take 
+simple averages of to aggregate to the ISIC two digit level.
+For obvious reasons\footnote{For example, it is unclear what effect various inputs tariffs have
+upon occupations in, say, the service sector.}, the concordance table matches product information
+for only some of the occupation codes found in my survey data. Following the convention employed 
+by the literature, I set the corresponding tariff faced by these occupations to zero.
+
+For the survey data previously alluded to, I use two sources. 
+Dominican Republic household survey data for 2002 comes from the 
+Integrated Public Use Microdata Series International
+(IPUMS) database, produced by the \citet{ipumsi} and conducted by the
+\citet{one} (ONE). The IPUMS data provides information on 
+survey respondents' income (measured as monthly total income in
+2002 Dominican pesos), municipality of residence, and occupation,
+provided at the ISIC two digit level, in addition to a host of other characteristics.
+%More information on geographic displacement in appendix?
+Household level data for 2013 comes from the 
+Demographic and Health Surveys (DHS) Program, and is produced by \citet{dhs}.
+Although the DHS dataset mostly provides information on the health 
+characteristics of survey respondents, it also provides 
+information on a respondent's occupation, place of residence,
+and occupational income (provided in weekly 2013 Dominican pesos), in addition to other factors. 
+DHS occupational information is provided without reference to any existing occupational/industrial 
+classification system, so I convert it manually to
+ISIC two digit codes (see Appendix \ref{fig:Appendix2}).
+Although both sources provide weekly income data, I am primarily interested in data
+on the average wage rate of workers in a given occupation, so I divide this data by the average 
+amount of hours worked per week by occupation (see Appendices \ref{fig:Appendix3} and 
+\ref{fig:Appendix4}). %More information on this construction in appendix?
+
+\textit{Municipality level regressions}
+
+For my estimating equations at the municipal level,
+I use several sources to estimate the share of economic activity in a given municipality.
+Information on the number of firms by size (measured in terms of
+number of workers employed) in a given industry at the 
+municipality level in the Dominican Republic is provided by the 
+Directory of Companies and Establishments (\textit{Directorio de Empresas y Establecimientos})
+provided by ONE for 2010\footnote{Available online at \href{http://www.one.gov.do/recursos-automatizados/
+323/directorio-de-empresas-y-establecimientos/}{ONE}. Note: this page, in my experience,
+only works sporadically.}. This information is provided
+at the International Standard Industrial Classification four digit level, which I sum
+up to the ISIC two digit level by municipality and number of workers employed.
+I then combine this plant level data with IPUMS survey data from 2002 and 2010 to provide 
+clearer estimates of the number of workers employed in each industry. Recalling that occupational data
+for IPUMS is provided at the ISIC two digit level, I use this to compute the estimated
+share of industrial activity per municipality for both 2002 and 2010.
+% More details here?
+Next, I merge each ISIC occupation code with the four digit ISIC duties computed above, 
+and then estimate the average level of tariff in a municipality using a weighted average
+based upon the estimated number of workers in a given occupation in that 
+municipality\footnote{i.e. Average Tariff$_m = \bar{t}_m =
+\dfrac{\displaystyle \sum_{\text{All occupations}_m} |workers_{o,m}| \cdot t_o}
+{\displaystyle \sum_{\text{All occupations}_m} |workers_{o,m}|}$, where $o$ is the 
+occupation, $m$ is a municipality, and $t$ is the tariff rate}. Finally, I aggregate
+the wage rate for workers listed as currently employed by the private sector who 
+have occupations for in the 2013 DHS 
+and 2002 IPUMS survey data to the municipality level and merge
+this to the average tariff data. 
+To accurately compare changes in wages, I convert 2002 
+and 2013 Dominican monthly wages in pesos to 2013 US Dollars using the nominal exchange rate.
+
+\textit{Occupational level regressions}
+
+Next, for my estimating equations at the occupational 
+and municipal level, I aggregate the wage rate for workers listed as currently employed 
+by the private sector in the the 2013 DHS and 2002 IPUMS survey data to the 
+municipal and occupational (ISIC two digit) level, and as above, 
+convert this income data to 2013 United States Dollars. 
+This is then merged with the ISIC tariff data at the national level, 
+which I aggregate to the ISIC two digit level using an unweighted average. 

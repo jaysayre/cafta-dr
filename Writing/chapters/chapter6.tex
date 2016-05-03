@@ -1,0 +1,168 @@
+\chapter{Estimation Strategy}
+\label{sec:Model}
+
+\newthought{In many cases}, the method of testing an empirical relationship between several economic variables must 
+be derived from a theoretical model in order to be credible and avoid reporting spurious correlations.
+In the case of determining the effect of trade liberalization on regional wages, however, the theoretical
+relationship is well established, either by the Heckscher-Ohlin model,
+the specific-factors model of regional economies, the model presented by \citeauthor{amiti}, or 
+others. I remain agnostic between these models, but it is clear the relationship between tariff rates
+and worker wages is well established. Ultimately, I adopt an estimation strategy to examine the 
+effect of changes in tariff rates on wages that bears similarities to each of \citet{kovak}, 
+\citet{amiti}, and \citet{amiti2012trade}. 
+
+In a given year, the expected reduced form relationship between wages and the tariff rate at the either
+the municipality level $(m)$ (or occupational level $(o)$, within each municipality) is given by 
+\begin{equation}
+\label{eq:Equation1}
+\log(w_m) = \delta_0 \iota + \delta_1 \log(\bar{t}_{m}+1)+Y_m \Gamma + Z_m \Theta + \epsilon_m,
+\end{equation}
+where $w_m$ is the average wage rate in a municipality, 
+I have $\iota = (1,\dots,1)^{\top}$ so I include a constant term $\delta_0$, 
+$\bar{t}_{m}$ is the average municipality level tariff rate (see section \ref{sec:Data} for details on 
+the construction of this variable for each estimation)\footnote{I include $1$ in the $\log(t+1)$
+to make sure no values are $-\infty$.}, $Y_m$ is a matrix
+formed by time-invariant controls (such as geographic characteristics of municipalities), and 
+$Z_m$ is a matrix formed by time varying characteristics (such as average education levels, 
+measures of firm concentration within a region, or time varying geographic fixed effects).
+Here, $\beta_1$ is my coefficient of interest, $\epsilon_m$ are my municipality level 
+disturbances, and $\log(\cdot)$ is the natural logarithm. As mentioned, I add geographic
+\footnote{Either municipality level or province level fixed effects,
+where province is one administrative level above the municipality level in the Dominican Republic.} 
+fixed effects to some of my equations. The rationale for this is that there may be confounding 
+time-varying macroeconomic shocks which effect the wages of workers at the municipality level, outside
+of my variables of interest. To the degree that these macroeconomic shocks affect the
+wages of workers, we would expect them to affect wages at the national (or perhaps provincial) level,
+but have few heterogeneous effects at the regional level. These time varying, national shocks 
+should be absorbed by regional fixed effects.
+
+However, I am interested in the effect of the change in tariffs due to CAFTA on the changes in wages
+in the Dominican Republic, and so I consider the following long differenced equation:
+\begin{equation}
+\label{eq:Equation2}
+\Delta\log(w_m) = \beta_0 \iota + \beta_1 \Delta\log(\bar{t}_{m}+1)+ \Delta Z_m \Lambda + \nu_m.
+\end{equation}
+
+Here, $\Delta \log(w_m) := \log(w_{m,2013}) - \log(w_{m,2002})$,
+$\Delta\log(\bar{t}_{m}+1) := \log(\bar{t}_{m,2013}+1)-\log(\bar{t}_{m,2002}+1)$, 
+and $\Delta Z_m :=  (Z_{m, 2013}-Z_{m, 2002})$. As this setup is somewhat complex,
+I provide some interpretation on how to read coefficient estimates of this relationship.
+It helps to note that using logarithm rules, the long differences can be rewritten as 
+$\Delta \log(w_m) = \log \left(\dfrac{w_{m,2013}}{w_{m,2002}} \right)$ and likewise for tariffs.
+From this, the coefficient of interest can be interpreted as follows: a $1$ percentage point increase 
+in $(\bar{t}_{m,2013}+1)/(\bar{t}_{m,2002}+1)$, which corresponds to a \textit{smaller} decrease in 
+tariffs between 2002 and 2013, is associated with a $\beta_1$ percentage point larger increase in wages
+between 2002 and 2013, all else equal. Inversely, a $1$ percentage point larger tariff decline is associated
+with a $\beta_1$ percentage point smaller increase (or larger decrease) in wages 
+between 2002 and 2013, which is my preferred interpretation.
+
+I now expound on the expected sign for the coefficient of interest. \text{Ex ante}, the sign of $\beta_1$ at the 
+municipality level is somewhat ambiguous -- one may expect that workers in inefficient import-competing 
+firms will be hurt by trade liberalization, whereas workers in firms with a ``love of variety'' may 
+benefit \citep{dixit1977monopolistic}. However, in a similar empirical study and reduced form relationship,
+\citet{kovak} finds municipalities in Brazil that experienced 10 percentage point larger trade 
+liberalization experienced roughly 4 percentage point larger wage declines over a 9 year period.
+If the context of CAFTA-DR and the Dominican Republic is similar, we might expect that $\beta_1 > 0$.
+Ultimately, I expect that if there is a channel between decreases in input tariffs and changes in
+wages, it will appear more strongly at the occupational level\footnote{And correspondingly,
+even more strongly at the firm level, although I do not have data available at this level.} 
+than the municipality level.
+
+The advantages of such a panel estimation are numerous. First, the long differencing helps 
+wash out measurement error and any problems with unit roots that may appear in a levels equation 
+\citep{amiti2012trade}.
+Second, the time-invariant controls $Y_m$ (many of which I do not have data for) are wiped away,
+leaving only time varying characteristics and region-year specific fixed effects, which contain
+information on exogenous shocks to wages.
+
+That said, there are several challenges to this estimation strategy. The first is that 
+tariff changes may have been limited to only certain industries with insufficient political
+capital to lobby against them, and so tariff changes reflect endogenous industry performance.
+However, I make the case that tariff changes due to CAFTA are arguably exogenous to 
+firm and industry performance in Section \ref{sec:Exogeneity}. Furthermore, even if tariff
+reform is not politically exogenous, and if political 
+economy factors relevant to tariff negotiations are time-invariant, then using long differencing
+\ref{eq:Equation2} would wipe those factors away.
+
+The second concern is that changes in the wage rate from 2002 to 2013 may be a reflection of changes 
+in supply, and not of changes in trade-induced demand. That is, changes in tariffs may lead workers,
+who are fairly mobile, to migrate within the Dominican Republic towards municipalities with higher 
+average protective input tariffs. In general equilibrium, wages would change accordingly to this shift 
+in supply. To get a sense of demographic and labor market changes in comparison to tariff changes across
+municipalities in the Dominican Republic, figures \ref{fig:Map4} to \ref{fig:Map3} plot average
+tariff rates and population statistics. Note that there are large migrations of people from the rural
+areas to large cities (such as southern Santo Domingo) during this time. 
+To establish whether or not there is an association between tariff changes and migration,
+I estimate the reduced form relationship
+
+\begin{equation}
+\label{eq:Equation3}
+\Delta\log(\text{Outcome of Interest}_m) = \alpha_0 \iota + \alpha_1 \Delta\log(\bar{t}_{m}+1)+\eta_m.
+\end{equation}
+
+The results of this estimation are displayed in Figure \ref{fig:Table3}; I estimate whether there
+is an association at the municipality level between the change in average tariff rates and the change in 
+population, change in total size of the workforce, and change in the employment rate. I find that
+(regardless of the inclusion of province level fixed effects or not), changes in tariffs have an
+insignificant effect on these outcomes. This, and the prior point, lead me to conclude that my 
+estimation strategy will produce unbiased estimates for the effect of trade reform.
+
+For my regressions at the occupation level, I adopt a reduced form relationship similar to that
+of Equation \ref{eq:Equation2}, but where wages are averages at the ISIC 2 digit occupational level
+within a given municipality, and tariffs are converted to occupational averages at the ISIC 2 digit level. 
+Here, my reduced form relationship is given by
+
+\begin{equation}
+\label{eq:Equation4}
+\Delta\log(w_{m,o}) = \beta_0 \iota + \beta_1 \Delta\log(\bar{t}_{o}+1)+ \Delta Z_{m,o} \Lambda
++X_{m,o} \Omega+\upsilon_{m,o}.
+\end{equation}
+
+In addition to the explanatory variables in Equation \ref{eq:Equation2}, I include additional variables 
+that are measured as levels in either 2002, 2010, and 2013 in the matrix $X_{m,o}$. 
+These variables include measurements of the estimated number of workers in the given occupation
+within a municipality, average education levels for a given occupation/municipality pair, and 
+following from \citet{holmes1}, a measure of the concentration of an occupation within a municipality.
+One challenge at the occupational level is that many of the occupations listed in my survey data do
+not have corresponding tariff information (see section \ref{sec:Data} for more details). Consistent 
+with the literature, I set the tariff change for these occupations to zero, although in some samples I 
+drop them altogether or include a dummy variable to indicate whether an occupation is non-traded.
+
+At the occupational/municipality level, I expect the effect of reduced trade barriers to have a 
+much clearer impact on the wages of workers than at the municipality level. That said, 
+\textit{ex-ante} the sign of the coefficient of interest may be ambiguous. Following from the 
+theory presented by \citet{amiti}, there may be heterogeneous effects of trade reform on workers,
+depending on the characteristics of their respective firms. Upon lowering trade barriers, firms 
+that import intermediate inputs may raise wages relative to non-importing firms, or firms that
+compete with inputs. As my data does not distinguish firms based on these characteristics, the sign
+of $\beta_1$ may be hard to predict. However, if higher trade barriers were initially enacted to
+protect firms that compete with inputs, then I may expect that $\beta_1>0$. In other words, I expect
+that, on average, occupations facing larger tariff decreases were concentrated in industries that
+competed with imports to begin with. If this is the case, then upon inclusion of a dummy variable
+to indicate whether an occupation is classified as being in the non-traded sector (where
+the dummy equals one if the occupation does not produce traded goods), that coefficient
+should be negative (in general, I expect this coefficient to have the opposite sign of $\beta_1$).
+For the coefficient corresponding to occupation concentration, the expected sign comes from
+\citet{holmes1}. The authors' model suggests that adverse wage impacts due to import competition 
+should be exaggerated in regions where one industry is more concentrated, so I expect that
+this coefficient is negative. I only include a measure of baseline occupation concentration in 2002,
+as one might expect that firm concentration after the implementation of CAFTA is endogenous to 
+tariff rates.
+
+\textit{Heterogeneity based on Education Levels}
+
+Consistent with the predictions of the Heckscher-Ohlin Model, I wish to test whether opening to
+trade reduces the wages of skilled laborers relative to unskilled laborers, as unskilled labor
+is relatively abundant in the Dominican Republic\footnote{To see this, refer to Figures \ref{fig:Summary 1}
+and \ref{fig:Summary 2}, which shows that on average, education levels in the Dominican Republic,
+as measured in years of education, are less than high school level. To the degree that education
+is a reliable proxy for skill level (I believe this is a reasonable assumption), this implies that 
+the Dominican Republic is relatively abundant in unskilled labor.}. 
+As such, I wish to test whether there are varying effects of trade reform on wages for high and 
+low skilled workers. To test this, I subset my full dataset into two samples: one where all
+the respondents have only a primary-level education or below (0-8 years of education), or
+a secondary level education or higher. Although these subsamples do not fully capture whether a respondent
+performs a task that is high or low skilled for employment, on average I expect this distinction to
+reflect skilled or unskilled employment. Once I have split up the samples based on education levels,
+I then repeat all the same calculations as in the full sample. From here, I test the reduced form 
+relationship given in Equation \ref{eq:Equation4} for each of these subsamples. 

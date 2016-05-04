@@ -112,6 +112,7 @@ margin=0pt, figurewithin=section, tablewithin=section]{caption}
 	\vspace{12pt}
 	to the University Honors Program at the  \\
 	\@university\\
+	\vspace{12pt}
 	%\@universitycity, \@universitystate\\ 
 	in partial fulfillment of the \\
 	requirements for the degree of \\
@@ -149,7 +150,7 @@ margin=0pt, figurewithin=section, tablewithin=section]{caption}
 \newcommand{\abstractpage}{
 	\newpage
 	\pagestyle{fancy}
-	\lhead{Sponsors: \@outsideevaluator, \@cosponsor, \& \@plansponsor} \rhead{\@author}
+	\lhead{Advisors: \@outsideevaluator, \@cosponsor, \& \@plansponsor} \rhead{\@author}
 	\renewcommand{\headrulewidth}{0.0pt} 
 	\begin{center}
 	\vspace*{1pt}

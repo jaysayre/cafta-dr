@@ -20,10 +20,10 @@
 \usepackage{indentfirst} % Indent first sentence of a new section.
 
 \providecommand\newthought[1]{#1}
-\providecommand\qauthor[1]{#1}
+\providecommand\qauthor[1]{--#1}
 \providecommand\chapter[1]{\section{#1}}
 
-\newenvironment{savequote}[1][]{}
+\newenvironment{savequote}[1][]{\noindent}
 
 % Title Page Formatting
 \title{

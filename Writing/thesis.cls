@@ -30,7 +30,8 @@
 \RequirePackage[centertags]{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{natbib}
-\RequirePackage[small, md, sc]{titlesec}
+\RequirePackage[small, md, sc, compact]{titlesec}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
 \RequirePackage[tight,nice]{units}
 \RequirePackage{verbatim}
 
@@ -57,9 +58,10 @@
 \RequirePackage{lettrine} % big letter at start of chapter
 \RequirePackage[margin=1in]{geometry}
 
-\RequirePackage{fancyhdr} 
+\RequirePackage{fancyhdr}
+\setlength{\headheight}{14.5pt}
 \pagestyle{plain} % options: empty , plain , fancy
-\RequirePackage[palatino]{quotchap}
+%\RequirePackage[palatino]{quotchap}
 \RequirePackage{titling}
 \RequirePackage{setspace} 
 \RequirePackage{booktabs} % for much better looking tables
@@ -68,7 +70,6 @@ margin=0pt, figurewithin=section, tablewithin=section]{caption}
 %\raggedright
 
 \parindent 12pt
-
 
 % use Arno Pro instead of standard LaTeX fonts
 \setmathsfont(Digits,Latin,Greek)[Numbers={OldStyle,Proportional}]{Arno Pro}%

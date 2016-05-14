@@ -3,12 +3,13 @@
 \fontsize{10pt}{12pt}\selectfont
 
 \begin{figure}[H]
-\begin{center}
+\centering
 National statistics, 2002 and 2013
 
 \input{../Plots/summarytable.tex}
 \caption{\label{fig:Summary 1}}
-\end{center}
+
+\raggedright
 Income measured
 as average hourly wage rate for respondents in terms of 2013 USD, 
 duty is average municipality level tariff (see data
@@ -19,11 +20,13 @@ and empop is the average employed population in a given municpality.
 \end{figure}
 
 \begin{figure}[H]
-\begin{center}
+\centering
 Summary statistics at the provincial level, 2002 and 2013
+
 \input{../Plots/provsummarytable1.tex}
 \caption{\label{fig:Summary 2}}
-\end{center}
+
+\raggedright
 duty is average provincial level tariff (see data
 section for construction), edu is average years of education of survey respondents. 
 2013 education data comes from the DHS, 2002 education data comes
@@ -31,12 +34,13 @@ from IPUMS International. pop is the total population of a province.
 \end{figure}
 
 \begin{figure}[H]
-\begin{center}
+\centering
 Summary statistics at the provincial level, 2002 and 2013 (continued)
-\input{../Plots/provsummarytable2.tex}
 
+\input{../Plots/provsummarytable2.tex}
 \vspace{15pt} \textbf{Figure \ref{fig:Summary 2}}
-\end{center}
+
+\raggedright
 Income measured
 as average hourly wage rate in terms of 2013 USD within a province.
 emprate is the employment rate, calculated as the total employed work force of a province
@@ -46,11 +50,14 @@ pop is the total population of a province.
 
 \begin{landscape}
 \begin{figure}[H]
-\begin{center}
+\centering
 Municipality level effect of tariff changes on migration and size of work force
+
 \input{../Plots/cleanedmigregs.tex}
 \caption{\label{fig:Table3}}
-\end{center}
+
+\raggedright
+\scriptsize
 Observations are municipalities in the Dominican Republic (second administrative level),
 and tariffs are averages of estimated tariffs for ISIC 2 digit occupational codes,
 weighted by the number of workers in a given occupation in that municipality 
@@ -64,12 +71,13 @@ over the total municipal population of working age.
 
 
 \begin{figure}[H]
-\begin{center}
+\centering
 Municipality level effect of tariff changes on change in log wage rate from 2002 to 2013 (measured
 in 2013 USD)
 \input{../Plots/cleanedmunregs.tex}
 \caption{\label{fig:Table1}}
-\end{center}
+\raggedright
+\scriptsize
 Observations are municipalities in the Dominican Republic (second administrative level),
 and tariffs are averages of estimated tariffs for ISIC 2 digit occupational codes,
 weighted by the number of workers in a given occupation in that municipality 
@@ -79,11 +87,12 @@ and chngedu is the change of average years of education from 2002-2010.
 \end{figure}
 
 \begin{figure}[H]
-\begin{center}
+\centering
 Effect of tariff changes on change in log wage rate from 2002 to 2013 (measured in 2013 USD)
 \input{../Plots/cleanedmunoccregs.tex}
 \caption{\label{fig:Table2}}
-\end{center}
+\raggedright
+\scriptsize
 Observations are each occupation within a municipality.
 Tariff rates are estimated duties for each ISIC 2 digit occupational code,
 using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
@@ -100,7 +109,8 @@ Heterogeneity: Effect of tariff changes on change in log wage rate from 2002 to 
 \input{../Plots/cleanedhisklmunoccregs.tex}
 \caption{\label{fig:Table4}}
 \end{center}
-\small{Observations are each occupation within a municipality.
+\scriptsize
+Observations are each occupation within a municipality.
 Tariff rates are estimated duties for each ISIC 2 digit occupational code,
 using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
 municipality level. The high skill sample only 
@@ -110,7 +120,7 @@ is the change in numworkers from 2002 to 2010. edu is average years of education
 of workers in an occupation within a municipality in a given year. nontraded is a binary variable
 taking the value one if an occupation has no corresponding tariff information (i.e. it produces goods
 that are not traded) and so the change in
-tariff rate has been set to zero.}
+tariff rate has been set to zero.
 \end{figure}
 
 \begin{figure}[H]
@@ -119,7 +129,8 @@ Heterogeneity: Effect of tariff changes on change in log wage rate from 2002 to 
 \input{../Plots/cleanedlosklmunoccregs.tex}
 \caption{\label{fig:Table5}}
 \end{center}
-\small{Observations are each occupation within a municipality. 
+\scriptsize
+Observations are each occupation within a municipality. 
 Tariff rates are estimated duties for each ISIC 2 digit occupational code,
 using a concordance table from HS1996 to ISIC Rev.3.1. Standard errors are clustered at the 
 municipality level. The low skill sample only 
@@ -128,6 +139,6 @@ number of workers within a municipality in the given occupation, and change in e
 is the change in numworkers from 2002 to 2010. edu is average years of education 
 of workers in an occupation within a municipality in a given year. nontraded is a binary variable
 taking the value one if an occupation has no corresponding tariff information and so the change in
-tariff rate has been set to zero.}
+tariff rate has been set to zero.
 \end{figure}
 \end{landscape}

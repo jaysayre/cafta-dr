@@ -131,7 +131,7 @@ margin=0pt, figurewithin=section, tablewithin=section]{caption}
 	\setcounter{page}{1}
 	\newpage \thispagestyle{empty} \vspace*{\fill}
 	\sc \noindent \copyright~\textit{\@degreeyear \hspace{3pt}~- \theauthor} \\
-	\noindent \href{mailto:sayre035@umn.edu}{sayre035@umn.edu} \\
+	\noindent \href{mailto:sayrejay@gmail.com}{sayrejay@gmail.com} \\
 	\noindent All rights reserved. \\
 	\vspace*{\fill} \newpage \rm
 }
